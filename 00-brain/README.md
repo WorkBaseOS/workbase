@@ -8,6 +8,4 @@ Stable facts live here: who you are, what your business is and offers, who your 
 
 Onboarding ("onboard me") fills this folder with you: `business-profile.md`, `team.md`, `priorities.md`, `rhythms.md`, and `voice.md`. Each is yours to edit afterwards.
 
-Two special files live in this folder:
-- `house-rules.md` — your standing preferences, in your words. Your assistant always applies them.
-- `private/` — for anything you would not show a team member. Ask yourself exactly that question; if the answer is no, it goes in there.
+One special file lives in this folder: `house-rules.md` — your standing preferences, in your words. Your assistant always applies them.

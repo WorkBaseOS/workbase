@@ -20,7 +20,7 @@ Your Workbase is your *personal* workspace. It works alongside the shared system
 
 ## The rooms of your Workbase
 
-**`00-brain/` — your Workbase's memory, and the foundation of everything else.** Everything your assistant should always know lives here: what your business is and offers, who your customers are, who is on your team, the words you use for things. Your assistant can read these facts when it needs them, so you don't have to explain your business from scratch each time. Getting this folder right helps everything else work better. Inside it you'll also find `house-rules.md` (explained below) and `private/` (for sensitive information you wouldn't share with a team member).
+**`00-brain/` — your Workbase's memory, and the foundation of everything else.** Everything your assistant should always know lives here: what your business is and offers, who your customers are, who is on your team, the words you use for things. Your assistant can read these facts when it needs them, so you don't have to explain your business from scratch each time. Getting this folder right helps everything else work better. Inside it you'll also find `house-rules.md` (explained below).
 
 **`01-in-tray/` — the tray on your desk.** Anything that needs handling lands here: notes, screenshots, PDFs, exports, messages from your email or Slack that need follow-up. However it arrives — dragged in by you, saved from an app, or delivered by a connector you've set up — it gets handled the same way. Say "process my tray" and your assistant organizes what you've added, updates the state of your work, and asks when something needs clarification.
 

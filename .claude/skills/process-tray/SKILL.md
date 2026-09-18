@@ -26,7 +26,7 @@ You are processing incoming items: usually everything in `01-in-tray/`, or whate
 
 3. **Check before you write (do this every time):** if the overview already reflects this item's content — same commitment, same change, same decision — do not record it again. Report the item as already processed and file it without further changes.
 
-4. **File the item itself** where it belongs: into the project, operation, or desk it concerns; brain-worthy facts into `00-brain/`; anything matching the private test ("would the owner show this to a team member?" — if no) into `00-brain/private/`. An item with no lasting value of its own (a pure status ping whose content is now in an overview) goes to `99-archive/`. The tray is a buffer — nothing stays in it except items awaiting clarification.
+4. **File the item itself** where it belongs: into the project, operation, or desk it concerns; brain-worthy facts into `00-brain/`. An item holding sensitive information (a note about a person, a client's confidence) is filed with its work like any other — say so in your report; rule 4 of the constitution governs anything drafted from it. An item with no lasting value of its own (a pure status ping whose content is now in an overview) goes to `99-archive/`. The tray is a buffer — nothing stays in it except items awaiting clarification.
 
 5. **Surface what doesn't add up.** If the item contradicts itself, another item, or the existing work-state (numbers that don't match, dates that conflict), tell the owner what you found. Never silently pick one version.
 

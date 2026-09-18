@@ -12,7 +12,7 @@ You are filling `00-brain/` with the durable context every later task pulls from
 ## Before the first question
 
 1. Read `00-brain/` as it stands. If the brain files already hold content, this is a refresh, not a first run:
-   - Before touching anything, copy the brain files to `99-archive/onboarding-backup-<YYYY-MM-DD-HHMM>/` — **everything in `00-brain/` except `private/`**, which onboarding never touches and which is never copied outside its own folder. Tell the owner in one line that a dated copy was kept in the archive folder.
+   - Before touching anything, copy the brain files to `99-archive/onboarding-backup-<YYYY-MM-DD-HHMM>/`. Tell the owner in one line that a dated copy was kept in the archive folder.
    - Keep everything already known unless the owner corrects it. Existing files keep their shape: add what is new under the standard headings at the end of the file; never reorganize, reword, or reorder what is there.
    - A question fully answered already is skipped with a one-line confirmation. A question partly answered gets the confirmation line plus its gaps, asked together in one turn — that turn is its one follow-up.
 2. Tell the owner, in three or four lines, what is about to happen: six short questions, one at a time; they can point you at something (a website, a document dropped into the chat or the in-tray, an app they have already connected), type, or dictate; anything they don't know or that doesn't apply, they say so and you move on.
@@ -87,4 +87,4 @@ Facts come from the owner's answers or from sources they pointed at. Keep the ow
 
 - Never ask for a password, token, or key. Read an app only when the owner points you at it and it is already connected in the desktop app.
 - Onboarding fills `00-brain/` and nothing else. No operations, projects, or desks get created here, and nothing is sent anywhere.
-- On a refresh, existing facts stay unless the owner corrects them; the backup taken before the first change stays in `99-archive/` and never includes `private/`.
+- On a refresh, existing facts stay unless the owner corrects them; the backup taken before the first change stays in `99-archive/`.
