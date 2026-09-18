@@ -10,6 +10,8 @@ Welcome to **WorkbaseOS** — your AI business workspace in Claude or Codex. Set
 
 One place where your assistant knows your business, keeps the state of your work current, and helps you run your week — instead of starting from zero in every chat. Folders you can open and read; plain files that are yours, with no separate task-management app required.
 
+Your Workbase is your *personal* workspace. It works alongside the shared systems your team relies on — your drive, your CRM, your pipeline sheet: you prepare and decide here; what the team needs lives there.
+
 ## First steps
 
 1. Open this folder in the **Claude Code app** or the **Codex app** (open the app, choose this folder). Both read the same rulebook: `AGENTS.md` holds the rules (Codex reads it natively), and `CLAUDE.md` points Claude to that same file — that's why both files sit at the root. We build and teach with Claude Code.
