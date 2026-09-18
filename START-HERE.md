@@ -20,7 +20,7 @@ One place where your assistant knows your business, keeps the state of your work
 
 **`00-brain/` — your Workbase's memory, and the foundation of everything else.** Everything your assistant should always know lives here: what your business is and offers, who your customers are, who is on your team, the words you use for things. Your assistant can read these facts when it needs them, so you don't have to explain your business from scratch each time. Getting this folder right helps everything else work better. Inside it you'll also find `house-rules.md` (explained below) and `private/` (for sensitive information you wouldn't share with a team member).
 
-**`01-in-tray/` — the tray on your desk.** Toss anything in all day without breaking stride: notes, screenshots, PDFs, exports — and emails from your inbox that need follow-up (copy one in, or save it as a file). Say "process my tray" and your assistant organizes what you've added, updates the state of your work, and asks when something needs clarification.
+**`01-in-tray/` — the tray on your desk.** Anything that needs handling lands here: notes, screenshots, PDFs, exports, messages from your email or Slack that need follow-up. However it arrives — dragged in by you, saved from an app, or delivered by a connector you've set up — it gets handled the same way. Say "process my tray" and your assistant organizes what you've added, updates the state of your work, and asks when something needs clarification.
 
 **`02-operations/` — the work that never ends.** Your ongoing responsibilities — marketing, finance, clients, the team — one folder per responsibility, each with its own overview of where things stand.
 
