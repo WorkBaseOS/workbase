@@ -19,8 +19,10 @@ You are processing incoming items: usually everything in `01-in-tray/`, or whate
    - Refresh **Current state** if the situation genuinely changed.
    - Add, adjust, or complete entries under **Open actions & commitments** — always with what, who, and a date or trigger where relevant. Mark an action done only when the item actually says so.
    - Record decisions under **Key decisions** when the item contains one.
-   - Write a **Recent changes** entry (dated, with the item as source) only when the item meaningfully changes the work-state. Filing a reference document is not a status event.
+   - Write a **Recent changes** entry (dated, with the item as source) only when the item meaningfully changes the work-state. Filing a reference document is not a status event — unless its arrival itself changes the state (it releases a waiting trigger, or reveals a real problem); then one entry is right.
    - Update `last_updated` in the frontmatter of any file you change.
+   - **State about one piece of work lives in ONE overview** — the container most responsible for it. Other affected containers may get a one-line context note in Current state, never a copy of the actions.
+   - **Never invent a deadline.** Use a date the item states, a related date already in the workspace, or a trigger; otherwise leave the action dateless and note it for the owner.
 
 3. **Check before you write (do this every time):** if the overview already reflects this item's content — same commitment, same change, same decision — do not record it again. Report the item as already processed and file it without further changes.
 
@@ -32,10 +34,12 @@ You are processing incoming items: usually everything in `01-in-tray/`, or whate
 
 If an item's destination, meaning, commitment, or completion status is unclear: do not guess. Rename the file with the prefix `unclear--`, leave it in the tray, and put your specific question to the owner in your report. Process everything else normally — one unclear item never blocks the rest.
 
+If no existing container fits an item, don't force it: treat it as unclear, and in your report propose where it could live — including creating a new operation or project — for the owner to decide.
+
 ## Ground rules
 
 - Everything you record comes from the item, the workspace, or what the owner explicitly said — never from inference presented as fact.
-- New markdown records you create carry the standard frontmatter (`status`, `owner`, `last_updated`).
+- New markdown records you create carry the standard frontmatter (`status`, `owner`, `last_updated`). Items you merely file keep their original content untouched — no stamping, no editing.
 - You file and record; you do not send, reply, or schedule anything external without the owner's approval (drafts are welcome).
 
 ## Report when done
