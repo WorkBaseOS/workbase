@@ -12,7 +12,7 @@ One place where your assistant knows your business, keeps the state of your work
 
 ## First steps
 
-1. Open this folder in the **Claude Code app** (open the app, choose this folder).
+1. Open this folder in the **Claude Code app** (open the app, choose this folder). Using Codex or a similar tool instead? You're not in the wrong place — the workspace and its rulebook (`AGENTS.md`) work there too; Claude Code is what we build and teach with.
 2. Say: **"Onboard me."** Your assistant interviews you briefly and fills `00-brain/` with your business — you answer questions and drag in documents; it does the typing.
 3. From then on: toss anything into `01-in-tray/` as your day happens, and say **"process my tray"** when you're ready. Ask **"plan my week"** on Monday. Finished something or changed direction? Tell your assistant so it can keep your overview current. That's the habit; everything else grows from it.
 
@@ -20,7 +20,7 @@ One place where your assistant knows your business, keeps the state of your work
 
 **`00-brain/` — your Workbase's memory, and the foundation of everything else.** Everything your assistant should always know lives here: what your business is and offers, who your customers are, who is on your team, the words you use for things. Your assistant can read these facts when it needs them, so you don't have to explain your business from scratch each time. Getting this folder right helps everything else work better. Inside it you'll also find `house-rules.md` (explained below) and `private/` (for sensitive information you wouldn't share with a team member).
 
-**`01-in-tray/` — the tray on your desk.** Toss anything in all day without breaking stride: notes, screenshots, PDFs, exports. Say "process my tray" and your assistant organizes what you've added, updates the state of your work, and asks when something needs clarification.
+**`01-in-tray/` — the tray on your desk.** Toss anything in all day without breaking stride: notes, screenshots, PDFs, exports — and emails from your inbox that need follow-up (copy one in, or save it as a file). Say "process my tray" and your assistant organizes what you've added, updates the state of your work, and asks when something needs clarification.
 
 **`02-operations/` — the work that never ends.** Your ongoing responsibilities — marketing, finance, clients, the team — one folder per responsibility, each with its own overview of where things stand.
 
