@@ -11,7 +11,10 @@ You are filling `00-brain/` with the durable context every later task pulls from
 
 ## Before the first question
 
-1. Read `00-brain/` as it stands. If the brain files already hold content, this is a refresh, not a first run: back up the folder to `99-archive/onboarding-backup-<YYYY-MM-DD-HHMM>/` before touching anything, keep everything already known unless the owner corrects it, and ask only about gaps or changes. Skip any question whose answer is already there — confirm it in a line instead.
+1. Read `00-brain/` as it stands. If the brain files already hold content, this is a refresh, not a first run:
+   - Before touching anything, copy the brain files to `99-archive/onboarding-backup-<YYYY-MM-DD-HHMM>/` — **everything in `00-brain/` except `private/`**, which onboarding never touches and which is never copied outside its own folder. Tell the owner in one line that a dated copy was kept in the archive folder.
+   - Keep everything already known unless the owner corrects it. Existing files keep their shape: add what is new under the standard headings at the end of the file; never reorganize, reword, or reorder what is there.
+   - A question fully answered already is skipped with a one-line confirmation. A question partly answered gets the confirmation line plus its gaps, asked together in one turn — that turn is its one follow-up.
 2. Tell the owner, in three or four lines, what is about to happen: six short questions, one at a time; they can point you at something (a website, a document dropped into the chat or the in-tray, an app they have already connected), type, or dictate; anything they don't know or that doesn't apply, they say so and you move on.
 
 ## How the interview runs
@@ -21,13 +24,13 @@ You are filling `00-brain/` with the durable context every later task pulls from
 - **One follow-up at most per question.** Each question below carries an extraction guide: what a rich answer tends to contain. It steers your reading and your single follow-up — spend the follow-up on the gap that matters most for the owner's responsibilities. It is never a checklist the owner must complete.
 - **Write as you go.** As soon as a question is answered, write or extend its brain file (each question names the file it feeds). An interrupted run loses nothing, and a later "onboard me" picks up where it stopped.
 - **No confirmation gates between questions.** One combined summary at the end, corrected once, is enough.
-- **House rules, whenever they surface.** If the owner states a standing preference at any point ("always write my drafts in Dutch", "never plan anything on Friday afternoon"), add it as a bullet under `## Rules` in `00-brain/house-rules.md` right away (add the heading if it is missing) and update the file's `last_updated`. A preference merely implied by one remark is not a rule — offer it in the summary as a suggestion instead.
+- **House rules, whenever they surface.** If the owner states a standing preference at any point ("always write my drafts in Dutch", "never plan anything on Friday afternoon"), add it as a bullet under `## Rules` in `00-brain/house-rules.md` right away (add the heading if it is missing) and update the file's `last_updated`. If the rule is already there in substance, add nothing. A preference merely implied by one remark is not a rule — offer it in the summary as a suggestion instead.
 
 ## The six questions
 
 ### 1 of 6 — You
 "Who are you — your name and position — what are you responsible for, and what do you personally produce or deliver? And what are you judged on?"
-Extraction guide: name · title · scope of responsibility · the craft work they do themselves · what they are judged on. The answer shapes the wording of later questions: a manager gets "who do you report to", an owner "who do you answer to, if anyone", a solo operator skips the team half of question 3.
+Extraction guide: name · title · scope of responsibility · the craft work they do themselves · what they are judged on (for an owner that is usually the business's own numbers — leave those to question 2). The answer shapes the wording of later questions: a manager gets "who do you report to", an owner "who do you answer to, if anyone", a solo operator skips the team half of question 3.
 Writes: `00-brain/team.md`, created now with the **Me** section only.
 Point at: a LinkedIn or about page.
 
@@ -65,21 +68,23 @@ Writes: `00-brain/voice.md` (shape below). The language goes into `00-brain/hous
 Every file you create carries the standard frontmatter (`status: active`, `owner: me`, `last_updated`). Use the headings below so later work finds the same shape every time; leave out any heading with nothing to say — an empty heading is worse than a missing one.
 
 - `business-profile.md`: What we do · What we offer · Who we work with · How we're organized · How we work · How we make money · The numbers we watch.
-- `team.md`: Me · Team · Who I answer to (only when there is someone) · Outside the team.
+- `team.md`: Me · Team · Who I answer to (only when there is someone; otherwise one line in Me) · Outside the team.
 - `priorities.md`: Goals · What we're pushing on now · For me.
 - `rhythms.md`: one line per rhythm — name, cadence and timing, for whom, duration.
 - `voice.md`, three parts. **How to use these samples** — fixed text: match the register of these samples when drafting for the owner; never send anything in the owner's name without showing the draft; these are samples of writing, not current commitments — dates, promises, or plans inside them are not work-state. **What I read in these samples (to confirm)** — your one-line characterization of the register, clearly marked as your reading. **The samples** — verbatim, each labeled (internal or external, to whom, date).
 - `house-rules.md` exists already: append bullets under `## Rules`, never replace what is there; update `last_updated`.
 
+One fact, one file: if the same fact would land in two files (an owner's own measures and the business's numbers; a capacity ceiling as both structure and goal), write it where it belongs most and refer to it from the other in half a line.
+
 Facts come from the owner's answers or from sources they pointed at. Keep the owner's hedges: "about the ceiling" stays "about the ceiling" — a soft observation must not become a policy line. Something you inferred (a role guessed from an email domain, a segment implied by a client list) is marked "to confirm" in the summary, not written as fact.
 
 ## Closing
 
-1. **One combined summary**, a few lines per file, plus anything marked "to confirm", any suggested house rule, and any project or operation that came up (noted as such, not set up). End with an invitation to correct ("Anything wrong or out of proportion?"). Apply the corrections and confirm in one line what changed.
+1. **One combined summary**, a few lines per file, plus anything marked "to confirm", any suggested house rule, and any project or operation that came up — noted as such, not set up; on a refresh, say when it already has a home. End with an invitation to correct ("Anything wrong or out of proportion?"). Apply the corrections and confirm in one line what changed.
 2. **Close simply.** One or two lines: the brain has been updated with what the owner just shared, and from here on their Workbase works from it. No task list and no prescribed next step — the owner continues however they like.
 
 ## Ground rules
 
 - Never ask for a password, token, or key. Read an app only when the owner points you at it and it is already connected in the desktop app.
 - Onboarding fills `00-brain/` and nothing else. No operations, projects, or desks get created here, and nothing is sent anywhere.
-- On a refresh, existing facts stay unless the owner corrects them; the backup taken before the first change stays in `99-archive/`.
+- On a refresh, existing facts stay unless the owner corrects them; the backup taken before the first change stays in `99-archive/` and never includes `private/`.
