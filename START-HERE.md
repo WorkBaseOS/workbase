@@ -4,7 +4,7 @@ workbase_version: 0.1.0
 
 # Start here
 
-Welcome to **WorkbaseOS** — your AI business workspace in Claude. Set it up once. Put it to work every day.
+Welcome to **WorkbaseOS** — your AI business workspace in Claude or Codex. Set it up once. Put it to work every day.
 
 ## What this is
 
@@ -12,7 +12,7 @@ One place where your assistant knows your business, keeps the state of your work
 
 ## First steps
 
-1. Open this folder in the **Claude Code app** (open the app, choose this folder). Using Codex or a similar tool instead? You're not in the wrong place — the workspace and its rulebook (`AGENTS.md`) work there too; Claude Code is what we build and teach with.
+1. Open this folder in the **Claude Code app** or the **Codex app** (open the app, choose this folder). Both read the same rulebook: `AGENTS.md` holds the rules (Codex reads it natively), and `CLAUDE.md` points Claude to that same file — that's why both files sit at the root. We build and teach with Claude Code.
 2. Say: **"Onboard me."** Your assistant interviews you briefly and fills `00-brain/` with your business — you answer questions and drag in documents; it does the typing.
 3. From then on: toss anything into `01-in-tray/` as your day happens, and say **"process my tray"** when you're ready. Ask **"plan my week"** on Monday. Finished something or changed direction? Tell your assistant so it can keep your overview current. That's the habit; everything else grows from it.
 
