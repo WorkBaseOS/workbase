@@ -8,6 +8,6 @@ last_updated: 2026-09-18
 
 Your standing preferences, in your own words. Your assistant always applies them.
 
-What belongs here: the language you want drafts in, your tone, your working hours, formatting likes and dislikes, tools you prefer — anything you'd otherwise repeat. Add a rule whenever you catch yourself correcting the same thing twice.
+What belongs here: the language you want drafts in, your tone, your working hours, formatting likes and dislikes, tools you prefer — anything you'd otherwise repeat. Tell your assistant a rule once ("always write my drafts in Dutch") and it records it here.
 
-(Onboarding starts this file with you. It's yours from that moment on.)
+## Rules
