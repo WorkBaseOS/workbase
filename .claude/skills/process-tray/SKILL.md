@@ -9,6 +9,8 @@ Read `.claude/skills/overview-pattern.md` before interpreting or modifying any w
 
 You are processing incoming items: usually everything in `01-in-tray/`, or whatever the owner pointed at (a pasted message, a file anywhere). For each item, three jobs: understand it, file it, and update the state of work. Never guess — that is the one hard rule.
 
+**Two speeds, owner's choice.** By default, process everything and report once at the end. If the owner asks to go one by one (or this is clearly their first time), take a single item, say what it is and what you intend to do with it, act after their go-ahead, then move to the next.
+
 ## Per item
 
 1. **Understand what it is.** Read it fully. One item can touch several things at once (a meeting note may carry commitments for three different containers) — handle all of them.
