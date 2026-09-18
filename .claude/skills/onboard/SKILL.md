@@ -46,7 +46,7 @@ Point at: a team page, an org chart, a page in their HR or wiki tool.
 ### 4 of 6 — Goals and priorities
 "What are the goals for the business and for your part of it, and what are you pushing on right now?"
 Extraction guide: strategic goals · current areas of emphasis · for the owner personally, what they want more or less of in their role. Ask once for a date or a measure where one exists; drop it where it doesn't.
-Writes: `00-brain/priorities.md` — goals and emphasis only. **Specific deliverables, deadlines, and actions do not go here**; they belong in a project's or operation's overview. If an answer reveals an active project or ongoing responsibility, note it for the closing summary and offer to set it up as the next step ("new project: …") — do not create it during onboarding.
+Writes: `00-brain/priorities.md` — goals and emphasis only. **Specific deliverables, deadlines, and actions do not go here**; they belong in a project's or operation's overview. If an answer reveals an active project or ongoing responsibility, note it in the closing summary — do not create it during onboarding.
 Point at: a strategy note, a goals or OKR page, a planning document.
 
 ### 5 of 6 — Rhythms
@@ -75,12 +75,8 @@ Facts come from the owner's answers or from sources they pointed at. Something y
 
 ## Closing
 
-1. **One combined summary**, a few lines per file, plus anything marked "to confirm" and any project or operation that surfaced. The owner corrects once; apply the corrections and finalize.
-2. **Three lines to end on:**
-   - Today: say **"plan my week"** and see what your Workbase already knows.
-   - This week: drop three things into `01-in-tray/` as they arrive and say **"process my tray"**.
-   - After a week: say **"audit my Workbase"**.
-   If an active project surfaced in question 4, add one line: "Want me to set up <project> now? Say 'new project: <name>'."
+1. **One combined summary**, a few lines per file, plus anything marked "to confirm" and any project or operation that came up (noted as such, not set up). The owner corrects once; apply the corrections and finalize.
+2. **Close simply.** One or two lines: the brain has been updated with what the owner just shared, and from here on their Workbase works from it. No task list and no prescribed next step — the owner continues however they like.
 
 ## Ground rules
 
