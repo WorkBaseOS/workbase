@@ -30,6 +30,13 @@ You are processing incoming items: usually everything in `01-in-tray/`, or whate
 
 5. **Surface what doesn't add up.** If the item contradicts itself, another item, or the existing work-state (numbers that don't match, dates that conflict), tell the owner what you found. Never silently pick one version.
 
+## Common item types — treat these the same way every time
+
+- **Meeting or call notes:** extract in this order: (1) decisions made → Key decisions of the container concerned; (2) commitments — every who-does-what, with its date or trigger → Open actions; (3) date, scope, or plan changes → Current state + Recent changes; (4) requests to us that need the owner's decision → an action for the owner, never a silent acceptance; (5) anything contradicting existing state → surface it.
+- **Emails and messages:** identify the sender's intent first (request, information, confirmation, completion) — then the same extraction as meeting notes.
+- **Status pings:** update the state they report, then archive the ping.
+- **Reference documents (lists, sheets, reports):** file to their container; a Recent-changes entry only if the arrival itself changes state (releases a trigger, reveals a problem).
+
 ## When you cannot be sure
 
 If an item's destination, meaning, commitment, or completion status is unclear: do not guess. Rename the file with the prefix `unclear--`, leave it in the tray, and put your specific question to the owner in your report. Process everything else normally — one unclear item never blocks the rest.
