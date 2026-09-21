@@ -11,7 +11,7 @@ last_updated: 2026-09-18
 due: 2026-10-15      # projects only, and only where a real deadline exists
 ```
 
-`owner:` names who is responsible for the container. Individual actions carry their own "who" in the actions section — a project owned by "me" can hold a commitment someone else made.
+`owner:` names who is responsible for the container; `me` is the Workbase owner. Individual actions carry their own "who" in the actions section — a project owned by "me" can hold a commitment someone else made. In action lines and prose, people go by first name, the owner included; "me" is a frontmatter convention only.
 
 ## Sections
 

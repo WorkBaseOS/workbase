@@ -43,6 +43,8 @@ If an item's destination, meaning, commitment, or completion status is unclear: 
 
 If no existing container fits an item, don't force it: treat it as unclear, and in your report propose where it could live — including creating a new operation or project — for the owner to decide. On the owner's yes, create it by the `new-work` skill's recipe, then process the item into it.
 
+When nothing fits because no containers exist yet — a fresh workspace, or a whole new area of work — that is a **proposal round**, not a pile of unclear items: leave the items as they are, propose the containers in one round with a one-line classification reason each (finish line → project; ongoing → operation), wait for the owner, then create by the `new-work` recipe and process everything. Rename `unclear--` only what remains unplaceable after that.
+
 ## Ground rules
 
 - Everything you record comes from the item, the workspace, or what the owner explicitly said — never from inference presented as fact.

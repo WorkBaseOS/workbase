@@ -24,14 +24,14 @@ When the request or the item makes it obvious ("a launch in November", "our clie
 Take answers from the request or the item where they are stated; ask for the rest in one turn.
 
 - **Project:** the goal (what "done" looks like), the owner (default: the Workbase owner), and a deadline only where a real one exists — never invent one.
-- **Operation:** what it is responsible for, and the owner.
+- **Operation:** what it is responsible for, and the owner. An owner named in `00-brain/team.md` counts as grounded — say in the hand-back where it came from so the owner can correct it.
 - **Any type, optional:** where this work's records live outside Workbase, if they do (a shared folder, a sheet, a tool). Record the pointer in Current state; check that it can be reached, and label it "access unverified" when it can't. Never ask for a password or key.
-- **Desk:** the four charter items — the craft; where the work happens (workspace mode: in the desk; control-room mode: elsewhere — name where); craft standards, a few lines in the owner's words; the pointer to the brain, which is fixed text ("Business context: read the hub brain, `00-brain/`; this desk doesn't restate it").
+- **Desk:** the four charter items — the craft (related crafts the owner does personally may share one desk); where the work happens (workspace mode: in the desk; control-room mode: elsewhere — name where); craft standards, a few lines in the owner's words; the pointer to the brain, which is fixed text ("Business context: read the hub brain, `00-brain/`; this desk doesn't restate it").
 
 ## 3. Create
 
 - **Folder:** a short lowercase name with hyphens, under the right parent.
-- **`_overview.md`** per the overview pattern: frontmatter (`status: active`, `owner`, `last_updated`; `due` for a dated project only), then **Current state** (what is known now, one to three sentences; for a project inside an operation's territory, say so here), **Open actions & commitments** (only those stated — what, who, date or trigger; none invented), **Key decisions** (only when one was stated), **Recent changes** (one entry: created on <date>, from <request or item>).
+- **`_overview.md`** per the overview pattern: frontmatter (`status: active`, `owner`, `last_updated`; `due` for a dated project only), then **Current state** (what is known now, one to three sentences; for a project inside an operation's territory, say so here), **Open actions & commitments** (only those stated — what, who, date or trigger; none invented), **Key decisions**, **Recent changes** (one entry: created on <date>, from <request or item>). All four sections are always present; an empty one reads "None yet." A container that starts with nothing to file is normal: its Current state says what it covers and where its work currently sits (an operation whose commitments live in its projects, for instance).
 - **Desk:** also `charter.md` with the four items and the same frontmatter.
 - Nothing else. No empty subfolders, no placeholder files — subfolders appear when real files need them.
 
