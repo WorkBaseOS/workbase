@@ -1,1 +1,3 @@
-Read and follow `AGENTS.md` — the single source of truth for how this workspace behaves.
+@AGENTS.md
+
+(The rules of this workspace live in AGENTS.md, imported above. Anything Claude-specific, if ever needed, goes below this line.)
