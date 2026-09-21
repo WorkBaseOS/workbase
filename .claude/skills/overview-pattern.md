@@ -25,7 +25,7 @@ One line each: **what**, **who**, and a **date or trigger** where relevant. Not 
 The decisions that shape this work: what was decided, when, and the reason in a line. Append new decisions; don't rewrite old ones.
 
 ### Recent changes
-Dated, meaningful outcomes only, newest first, with a source reference when available ("per Doug's email, 2026-09-18"). This section exists because current state alone cannot tell what happened in a given week. It is not a diary: filing a reference document, routine reading, or small edits never create an entry. If the work-state didn't meaningfully change, nothing is written here.
+Dated, meaningful outcomes only, newest first, with a source reference when available ("per the client's email, 2026-09-18"). This section exists because current state alone cannot tell what happened in a given week. It is not a diary: filing a reference document, routine reading, or small edits never create an entry. If the work-state didn't meaningfully change, nothing is written here.
 
 ## Meaning rules
 
