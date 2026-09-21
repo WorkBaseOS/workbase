@@ -41,7 +41,7 @@ You are processing incoming items: usually everything in `01-in-tray/`, or whate
 
 If an item's destination, meaning, commitment, or completion status is unclear: do not guess. Rename the file with the prefix `unclear--`, leave it in the tray, and put your specific question to the owner in your report. Process everything else normally — one unclear item never blocks the rest.
 
-If no existing container fits an item, don't force it: treat it as unclear, and in your report propose where it could live — including creating a new operation or project — for the owner to decide.
+If no existing container fits an item, don't force it: treat it as unclear, and in your report propose where it could live — including creating a new operation or project — for the owner to decide. On the owner's yes, create it by the `new-work` skill's recipe, then process the item into it.
 
 ## Ground rules
 

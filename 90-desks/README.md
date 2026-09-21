@@ -6,6 +6,6 @@ A desk works in two ways:
 - **As a workspace:** you do the craft work right here, in the desk folder.
 - **As a control room:** the work lives somewhere else — a code repository, a design tool — and the desk holds the context, task briefs, links, and key outcomes.
 
-**The one rule:** each desk has a charter (how this craft is done) and an `_overview.md` (its status). The rest of the workspace reads only those two — your drafts are your business.
+**The one rule:** each desk has a charter (how this craft is done) and an `_overview.md` (its status). The rest of the workspace reads only those two — your drafts are your business. A charter holds four things: the craft, where the work happens, your craft standards, and a pointer to the brain. Say **"set up a desk for …"** and your assistant creates one properly.
 
 One place to manage everything, without having to do — or store — everything in one place.
