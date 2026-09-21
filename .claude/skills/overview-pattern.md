@@ -27,6 +27,10 @@ The decisions that shape this work: what was decided, when, and the reason in a 
 ### Recent changes
 Dated, meaningful outcomes only, newest first, with a source reference when available ("per the client's email, 2026-09-18"). This section exists because current state alone cannot tell what happened in a given week. It is not a diary: filing a reference document, routine reading, or small edits never create an entry. If the work-state didn't meaningfully change, nothing is written here.
 
+## Finishing a container
+
+When the work is over — the owner says so, or an item reports it and the owner confirms — the container is retired in one shape: every open action is completed or explicitly dropped (a dropped action is recorded as dropped under Recent changes, never silently removed); a closing Recent changes entry ("done on <date>, per <source>"); frontmatter `status: done`; the folder moved to `99-archive/` keeping its path (`99-archive/03-projects/<name>/`). Nothing is deleted. Any skill may propose finishing; only the owner's word triggers it.
+
 ## Meaning rules
 
 - The overview is the container's single source of state. If the overview and a working file disagree, the overview gets corrected — state is never duplicated into other files.

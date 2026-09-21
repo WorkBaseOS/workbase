@@ -33,6 +33,8 @@ You are processing incoming items: usually everything in `01-in-tray/`, or whate
 ## Common item types — treat these the same way every time
 
 - **Meeting or call notes:** extract in this order: (1) decisions made → Key decisions of the container concerned; (2) commitments — every who-does-what, with its date or trigger → Open actions; (3) date, scope, or plan changes → Current state + Recent changes; (4) requests to us that need the owner's decision → an action for the owner, never a silent acceptance; (5) anything contradicting existing state → surface it.
+- **Long transcripts (a recorded call, a meeting export):** first write a one-page meeting record, filed with the work — decisions, commitments (who, what, date or trigger), open points, in that order, with the transcript as source — then extract from that record exactly as for meeting or call notes. The transcript itself is filed next to the record, untouched.
+- **An item reporting that a project or operation is over:** propose finishing it per the overview pattern; never archive a container on an item alone.
 - **Emails and messages:** identify the sender's intent first (request, information, confirmation, completion) — then the same extraction as meeting notes.
 - **Status pings:** update the state they report, then archive the ping.
 - **Reference documents (lists, sheets, reports):** file to their container; a Recent-changes entry only if the arrival itself changes state (releases a trigger, reveals a problem).
