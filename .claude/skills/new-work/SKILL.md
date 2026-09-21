@@ -25,6 +25,7 @@ Take answers from the request or the item where they are stated; ask for the res
 
 - **Project:** the goal (what "done" looks like), the owner (default: the Workbase owner), and a deadline only where a real one exists — never invent one.
 - **Operation:** what it is responsible for, and the owner.
+- **Any type, optional:** where this work's records live outside Workbase, if they do (a shared folder, a sheet, a tool). Record the pointer in Current state; check that it can be reached, and label it "access unverified" when it can't. Never ask for a password or key.
 - **Desk:** the four charter items — the craft; where the work happens (workspace mode: in the desk; control-room mode: elsewhere — name where); craft standards, a few lines in the owner's words; the pointer to the brain, which is fixed text ("Business context: read the hub brain, `00-brain/`; this desk doesn't restate it").
 
 ## 3. Create
@@ -34,13 +35,13 @@ Take answers from the request or the item where they are stated; ask for the res
 - **Desk:** also `charter.md` with the four items and the same frontmatter.
 - Nothing else. No empty subfolders, no placeholder files — subfolders appear when real files need them.
 
-## 4. Hand back
+## 4. Read back, then hand back
 
-One line: what was created and where, and the first open action if there is one. When you were called while processing the tray, continue: file the item into the new container and update its overview from the item.
+Read the new overview back once: it sits under the right parent, its frontmatter is complete, its sections are the standard ones. Then one line: what was created and where, and the first open action if there is one. When you were called while processing the tray, continue: file the item into the new container and update its overview from the item.
 
 ## Rules
 
 - **One container per piece of work.** An ongoing responsibility and a project inside it are two containers; the project's Current state names the operation it belongs to.
 - **No invented facts.** Goal, owner, deadline, and actions come from the owner or the item. Missing is fine; guessed is not.
-- **Ask before creating** when the request could mean an existing container, or when two types both fit.
+- **The request is the approval.** "New project for X" or a yes to a proposal creates the container without a further confirmation round. Ask first only when the request could mean an existing container, or when two types both fit.
 - **Not the brain.** Facts about the business or the team that surface here belong in `00-brain/` — mention them in the hand-back for the owner, don't file them silently.
