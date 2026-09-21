@@ -16,7 +16,7 @@ Your Workbase is your *personal* workspace. It works alongside the shared system
 
 1. Open this folder in the **Claude Code app** or the **Codex app** (open the app, choose this folder). Both read the same rulebook: `AGENTS.md` holds the rules (Codex reads it natively), and `CLAUDE.md` points Claude to that same file — that's why both files sit at the root. We build and teach with Claude Code.
 2. Say: **"Onboard me."** Your assistant interviews you briefly and fills `00-brain/` with your business — you answer questions and drag in documents; it does the typing.
-3. From then on: toss anything into `01-in-tray/` as your day happens, and say **"process my tray"** when you're ready. Ask **"plan my week"** on Monday. Finished something or changed direction? Tell your assistant so it can keep your overview current. That's the habit; everything else grows from it.
+3. From then on: toss anything into `01-in-tray/` as your day happens, and say **"process my tray"** when you're ready. Ask **"what's open?"** on Monday morning. Finished something or changed direction? Tell your assistant so it can keep your overview current. That's the habit; everything else grows from it.
 
 ## The rooms of your Workbase
 
