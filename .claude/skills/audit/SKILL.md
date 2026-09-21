@@ -45,11 +45,11 @@ Each check has a yes-or-no answer and a file behind it. Label every finding by t
 
 The chat and the saved file carry the same text. Aim for one screen of findings; a finding may take several sentences when it cites two files. In this order:
 
-1. **The one correction that matters most** — the finding that most improves what the other skills produce this week: what, and why, in two lines.
+1. **The one correction that matters most** — the finding that most improves what the other skills produce this week: what, and why, in two lines. With no findings, the lead names the most useful owner check, or says plainly that the workspace is in order.
 2. **Verdict** — one plain sentence ("in order structurally; behind on intake").
 3. **Findings**, ordered by damage: behind the tray and stale answers first, then conflicts, then missing elements, then tidiness. Each: `AUD-<YYYY-MM-DD>-<n>` · label · what · the file(s) · the proposed fix, marked "mechanical" or "changes meaning". Never invent findings to fill a list — "no findings" is a valid section.
-4. **Checks for the owner** — the rhythm-evidence items and anything only they can answer, as questions.
-5. **Since last audit** — for every finding in the previous report, by ID: resolved (with today's evidence), still open, new, or not rechecked. No previous report: "first audit — baseline". A same-day re-audit keeps the IDs.
+4. **Checks for the owner** — the rhythm-evidence items and anything only they can answer, as questions, each with an ID `CHK-<YYYY-MM-DD>-<n>` so the next audit can recheck it.
+5. **Since last audit** — for every finding and check in the previous report, by ID: resolved (with today's evidence), still open, new, or not rechecked. No previous report: "first audit — baseline". A same-day re-audit keeps the IDs.
 6. **Counts** — findings by label, tray items, overviews read, and what you did not read.
 
 Save the report as `99-archive/audits/<YYYY-MM-DD>-audit.md` (create the folder if needed; a second report the same day gets `-2`), with the standard frontmatter, before offering any repair, and say where it is. Keep earlier reports.

@@ -19,7 +19,7 @@ due: 2026-10-15      # projects only, and only where a real deadline exists
 What's happening now, in a few sentences. A reader should understand the situation without opening anything else in the folder.
 
 ### Open actions & commitments
-One line each: **what**, **who**, and a **date or trigger** where relevant. Not every action has a date — some wait on a trigger ("after the client signs") or a next check-in. An action leaves this list only when it is actually done or explicitly dropped — and when it completes, **remove it from Open actions and record the completion under Recent changes**: "open" always means open.
+One line each: **what**, **who**, and a **date or trigger** where relevant. Not every action has a date — some wait on a trigger ("after the client signs") or a next check-in. When a trigger is met, note it on the line — "trigger: the outline is final (met 2026-09-24)" — and record the event under Recent changes; the action stays open until it is done. An action leaves this list only when it is actually done or explicitly dropped — and when it completes, **remove it from Open actions and record the completion under Recent changes**: "open" always means open.
 
 ### Key decisions
 The decisions that shape this work: what was decided, when, and the reason in a line. Append new decisions; don't rewrite old ones.

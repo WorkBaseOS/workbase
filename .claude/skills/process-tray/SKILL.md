@@ -9,7 +9,7 @@ Read `.claude/skills/overview-pattern.md` before interpreting or modifying any w
 
 You are processing incoming items: usually everything in `01-in-tray/`, or whatever the owner pointed at (a pasted message, a file anywhere). For each item, three jobs: understand it, file it, and update the state of work. Never guess — that is the one hard rule.
 
-**Two speeds, owner's choice.** By default, process everything and report once at the end. If the owner asks to go one by one (or this is clearly their first time), take a single item, say what it is and what you intend to do with it, act after their go-ahead, then move to the next.
+**Two speeds, owner's choice.** By default, process everything and report once at the end. If the owner asks to go one by one, or no overview yet holds an entry sourced to a tray item (their first time), take a single item, say what it is and what you intend to do with it, act after their go-ahead, then move to the next.
 
 ## Per item
 
@@ -24,9 +24,9 @@ You are processing incoming items: usually everything in `01-in-tray/`, or whate
    - **State about one piece of work lives in ONE overview** — the container most responsible for it. Other affected containers may get a one-line context note in Current state, never a copy of the actions.
    - **Never invent a deadline.** Use a date the item states, a related date already in the workspace, or a trigger; otherwise leave the action dateless and note it for the owner.
 
-3. **Check before you write (do this every time):** if the overview already reflects this item's content — same commitment, same change, same decision — do not record it again. Report the item as already processed and file it without further changes.
+3. **Check before you write (do this every time):** if the overview already reflects this item's content — same commitment, same change, same decision — do not record it again. Report the item as already processed and file it without further changes. An exact duplicate of an item already filed goes to `99-archive/` with a `-duplicate` suffix, content untouched.
 
-4. **File the item itself** where it belongs: into the project, operation, or desk it concerns; brain-worthy facts into `00-brain/`. An item holding sensitive information (a note about a person, a client's confidence) is filed with its work like any other — say so in your report; rule 4 of the constitution governs anything drafted from it. An item with no lasting value of its own (a pure status ping whose content is now in an overview) goes to `99-archive/`. The tray is a buffer — nothing stays in it except items awaiting clarification.
+4. **File the item itself** where it belongs: into the project, operation, or desk it concerns; brain-worthy facts into `00-brain/`. An item holding sensitive information (a note about a person, a client's confidence) is filed with its work like any other — say so in your report; rule 4 of the constitution governs anything drafted from it. An item with no lasting value of its own (a pure status ping whose content is now in an overview) goes to `99-archive/` — unless an overview entry cites it as its source; a cited item is filed with its work. The tray is a buffer — nothing stays in it except items awaiting clarification.
 
 5. **Surface what doesn't add up.** If the item contradicts itself, another item, or the existing work-state (numbers that don't match, dates that conflict), tell the owner what you found. Never silently pick one version.
 

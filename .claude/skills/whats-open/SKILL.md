@@ -24,6 +24,7 @@ Title: **What's open in your Workbase — <weekday, date>**.
 
 Then these sections, in this order, each left out when empty:
 
+- A project's `due` date counts as a dated item in the sections below, written as "<project> — finish — <date>": the finish line is the point of the project and must never be invisible.
 - **Past due** — dated actions whose date has passed. Phrase: "was due <date>, nothing recorded in the overview since". Never "overdue" as a verdict: the Workbase may simply not have been told.
 - **Due this week** — dated actions in the current week, Monday to Sunday.
 - **Triggered, not done** — actions waiting on a trigger where an overview records that the trigger has happened (in Current state or Recent changes). A trigger that has only partly happened, or that you would have to infer, is still waiting. When in doubt, waiting.
@@ -34,9 +35,9 @@ Then these sections, in this order, each left out when empty:
 - **Parked in the tray** — items marked `unclear--`, one line each with the open question. They are the owner's open loops too.
 - **Fixed this week** — from rhythms: the standing commitments that fall in this week. A rhythm that does not apply this week is said in a few words only when the overviews make that plain ("no sessions are scheduled, so no sponsor update"); otherwise list it as it stands. A rhythm tied to an event rather than a day ("after each session") is listed as it stands, without judging whether one is due.
 
-Each action line reads: **what** — **who** — date or trigger · container. "You" for the owner. Other people's actions are listed so the owner stops carrying them in their head, labeled as theirs.
+Each action line reads: **what** — **who** — date or trigger · container. The view addresses the owner as "you"; overviews use names. Other people's actions are listed so the owner stops carrying them in their head, labeled as theirs.
 
-Close with two lines: the counts — action lines in the six open sections (past due through open-no-date), by owner, "Yours 5 · team 5 · client 1, in this Workbase", a group with zero omitted — and "This is a view; your overviews are unchanged." Render the title as a heading and each section name as a sub-heading, so every view looks the same.
+Close with two lines: the counts — action lines in the six open sections (past due through open-no-date), by owner, "Yours 5 · team 5 · client 1, in this Workbase" — "yours" always shown, even at zero; other groups with zero omitted — and "This is a view; your overviews are unchanged." Render the title as a heading and each section name as a sub-heading, so every view looks the same.
 
 **Asked for today** ("what's open today?"): title **What's open today — <date>**, the scope line in one sentence, then past due, due today, triggered, and today's fixed points. When nothing carries today's date, say so and name the next dated action: "Nothing is dated today; next up: <what>, <date>." Counts cover what this view shows.
 

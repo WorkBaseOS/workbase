@@ -16,7 +16,7 @@ If `01-in-tray/` holds unprocessed items (anything except its README and `unclea
 ## 1. Settle the reader and the period — two questions at most
 
 - **Reader:** who receives it, and which kind — **upward** (a manager, a board), **outward** (a client, a partner), **across** (the team). Take it from the request when named; ask otherwise. `00-brain/team.md` says who people are.
-- **Period:** from the request ("last week" means Monday to Sunday); else from a rhythm in `00-brain/rhythms.md` that names an update to this reader; else since the last "update sent to <reader>" entry in the overviews in scope; else ask, one line. A meeting rhythm gives a cadence, not a period — it does not settle this.
+- **Period:** from the request ("last week" means Monday to Sunday; "this week" mid-week means Monday to today for what happened and today to Sunday for what's next); else from a rhythm in `00-brain/rhythms.md` that names an update to this reader; else since the last "update sent to <reader>" entry in the overviews in scope; else ask, one line. A meeting rhythm gives a cadence, not a period — it does not settle this.
 - **Scope follows from the reader — don't ask.** Outward: every container about that client or partner; from a container about several clients, only the entries about this one. Upward: everything the owner is accountable for, or the containers the request names. Across: the team's work. State the scope in the header so the owner can narrow it in a word.
 
 ## 2. Read
@@ -35,7 +35,7 @@ A header line for the owner: reader · period · scope, plus the staleness line 
 - **What I need from you** — whatever the reader must do, decide, or confirm for the work to move, whichever side the action sits on. Each one concrete, with a date where one exists.
 - **Stuck or at risk** — blockers wherever they sit, including our own side (a past-due item of ours is reported, not hidden), and risks the reader should know about.
 
-**The blocks are the structure, not labels.** In an email or a message the five blocks become short paragraphs in the owner's register, without headings or lead-ins, unless the owner's own samples use them. A block with nothing in it is left out of the draft and named in Sources ("stuck or at risk: nothing recorded"), so the owner can tell empty from forgotten.
+**The blocks are the structure, not labels.** In an email or a message the five blocks become short paragraphs in the owner's register, without headings or lead-ins, unless the owner's own samples use them. A block with nothing in it is left out of the draft and named in Sources ("stuck or at risk: nothing recorded"), so the owner can tell empty from forgotten. In an outward update, an empty "what I need from you" may become one plain line saying nothing is needed this time — a reader wants to hear that.
 
 Below the draft, for the owner only, **Sources**: one line per block naming the overview and entries it came from, so any sentence can be traced.
 
@@ -44,7 +44,7 @@ Below the draft, for the owner only, **Sources**: one line per block naming the 
 - **Grounded.** Every sentence of substance traces to an overview, rhythms, or the owner; brain files supply who people are and what the business is, never the state of work; voice samples supply nothing. No completion the overview does not record; no date the overview does not hold.
 - **Audience-safe.** Anything about a person, a client's confidence, or another client's business stays out of an outward update, and out of any update where it does not belong — and is named to the owner ("left out: the note about a participant; say if it belongs"). Constitution rule 4 governs.
 - **Register.** Matches the voice samples for this audience and the language the house rules ask for.
-- **No AI tells.** No em dashes, no filler openers, no generic closers, no bullet lists where the owner writes prose, no label-and-colon scaffolding.
+- **No AI tells.** No em dashes unless the owner's own samples use them, no filler openers, no generic closers, no bullet lists where the owner writes prose, no label-and-colon scaffolding.
 - **Length.** What this reader would actually read: a client's weekly update is a short email, not a report.
 
 ## 5. Hand over — and the one line you may write
