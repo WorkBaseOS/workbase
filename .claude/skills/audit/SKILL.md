@@ -24,8 +24,8 @@ Each check has a yes-or-no answer and a file behind it. Label every finding by t
 - An overview whose Current state or actions a tray item supersedes (a date moved, a request made, a completion reported, an awaited item arrived). The fix for this class is always the same — process the tray — and you never write out edits drawn from unprocessed items.
 
 **Work-state, per overview**
-- Missing frontmatter or a missing section; no owner.
-- `last_updated` more than 14 days old while open actions exist — a weak signal; the audit's own repairs never count as an update.
+- Missing `status`, or a missing section.
+- The newest Recent changes entry more than 14 days old while open actions exist — a weak signal; the audit's own repairs never count.
 - Current state contradicted by a later Recent changes entry, or by another overview.
 - Open actions with neither date nor trigger that the previous audit already listed.
 - Past-due actions with nothing recorded since.
@@ -49,13 +49,13 @@ The chat and the saved file carry the same text. Aim for one screen of findings;
 5. **Since last audit** — for every finding and check in the previous report, by ID: resolved (with today's evidence), still open, new, or not rechecked. No previous report: "first audit — baseline". A same-day re-audit keeps the IDs.
 6. **Counts** — findings by label, tray items, overviews read, and what you did not read.
 
-Save the report as `99-archive/audits/<YYYY-MM-DD>-audit.md` (create the folder if needed; a second report the same day gets `-2`), with the standard frontmatter, before offering any repair, and say where it is. Keep earlier reports.
+Save the report as `99-archive/audits/<YYYY-MM-DD>-audit.md` (create the folder if needed; a second report the same day gets `-2`), as a plain Markdown file, before offering any repair, and say where it is. Keep earlier reports.
 
 ## 4. Repairs — only on the owner's word
 
 After the report, stop. When the owner picks findings to fix:
 
-- **Mechanical and meaning-preserving — do them:** add missing frontmatter or a missing empty section; move a done container to `99-archive/` keeping its path; create `00-brain/where-things-live.md` from the external systems the overviews name, each marked "to confirm". Update `last_updated` on any file you touch, and list those files in the report so the next audit does not read the stamp as work.
+- **Mechanical and meaning-preserving — do them:** add a missing `status` or a missing empty section; move a done container to `99-archive/` keeping its path; create `00-brain/where-things-live.md` from the external systems the overviews name, each marked "to confirm". List the files you touched in the report so the next audit does not read them as work.
 - **Meaning-changing — propose, never do on your own:** merging duplicated state into one overview, rewording or dating a commitment, resolving a contradiction, closing an action. Write the proposed edit out in full; the owner applies it, or says "do it" per item.
 - **Never:** delete anything; change the constitution; alter facts in `00-brain/`; write into an overview's Current state; write edits drawn from unprocessed tray items.
 

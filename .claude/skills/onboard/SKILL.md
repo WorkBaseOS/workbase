@@ -24,7 +24,7 @@ You are filling `00-brain/` with the durable context every later task pulls from
 - **One follow-up at most per question.** Each question below carries an extraction guide: what a rich answer tends to contain. It steers your reading and your single follow-up — spend the follow-up on the gap that matters most for the owner's responsibilities. It is never a checklist the owner must complete.
 - **Write as you go.** As soon as a question is answered, write or extend its brain file (each question names the file it feeds). An interrupted run loses nothing, and a later "onboard me" picks up where it stopped.
 - **No confirmation gates between questions.** One combined summary at the end, corrected once, is enough.
-- **House rules, whenever they surface.** If the owner states a standing preference at any point ("always keep client emails short", "never plan anything on Friday afternoon"), add it as a bullet under `## Rules` in `00-brain/house-rules.md` right away (add the heading if it is missing) and update the file's `last_updated`. If the rule is already there in substance — in house-rules or as a rule of the constitution — add nothing and say so in the summary. A preference merely implied by one remark is not a rule — offer it in the summary as a suggestion instead.
+- **House rules, whenever they surface.** If the owner states a standing preference at any point ("always keep client emails short", "never plan anything on Friday afternoon"), add it as a bullet under `## Rules` in `00-brain/house-rules.md` right away (add the heading if it is missing). If the rule is already there in substance — in house-rules or as a rule of the constitution — add nothing and say so in the summary. A preference merely implied by one remark is not a rule — offer it in the summary as a suggestion instead.
 
 ## The five questions
 
@@ -59,13 +59,13 @@ Writes: `00-brain/voice.md` (shape below). The language goes into `00-brain/hous
 
 ## Files you write
 
-Every file you create carries the standard frontmatter (`status: active`, `owner: me`, `last_updated`). Use the headings below so later work finds the same shape every time; leave out any heading with nothing to say — an empty heading is worse than a missing one.
+Every file you create carries `status: active` in its frontmatter, nothing else. Use the headings below so later work finds the same shape every time; leave out any heading with nothing to say — an empty heading is worse than a missing one.
 
 - `business-profile.md`: What we do · What we offer · Who we work with · How we're organized · How we work · How we make money · The numbers we watch.
 - `team.md`: Me · Team · Who I answer to (only when there is someone; otherwise one line in Me) · Outside the team.
 - `priorities.md`: Goals · What we're pushing on now · For me.
 - `voice.md`, three parts. **How to use these samples** — fixed text: match the register of these samples when drafting for the owner; never send anything in the owner's name without showing the draft; these are samples of writing, not current commitments — dates, promises, or plans inside them are not work-state. **What I read in these samples (to confirm)** — your one-line characterization of the register, clearly marked as your reading. **The samples** — verbatim, each labeled (internal or external, to whom, date).
-- `house-rules.md` exists already: append bullets under `## Rules`, never replace what is there; update `last_updated`.
+- `house-rules.md` exists already: append bullets under `## Rules`, never replace what is there.
 
 One fact, one file: if the same fact would land in two files (an owner's own measures and the business's numbers; a capacity ceiling as both structure and goal), write it where it belongs most and refer to it from the other in half a line.
 

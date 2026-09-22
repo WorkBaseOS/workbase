@@ -51,7 +51,7 @@ Below the draft, for the owner only, **Sources**: one line per block naming the 
 
 Hand the draft over with one sentence naming what you left out or are unsure of. The owner sends it from their own tool.
 
-When the owner says it was sent, and the update was outward or the scope was a single container, add one entry under Recent changes in that container's overview — "<date> — update sent to <reader>, period <from> to <to>" — and update its `last_updated`. An update reaching its reader is a meaningful outcome for that container, and it gives the next update its period. For an upward or across update spanning several containers, write nothing; the next update asks its period. Nothing else changes: writing an update never marks work done or moves a date.
+When the owner says it was sent, and the update was outward or the scope was a single container, add one entry under Recent changes in that container's overview — "<date> — update sent to <reader>, period <from> to <to>". An update reaching its reader is a meaningful outcome for that container, and it gives the next update its period. For an upward or across update spanning several containers, write nothing; the next update asks its period. Nothing else changes: writing an update never marks work done or moves a date.
 
 ## Rules
 

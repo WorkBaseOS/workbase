@@ -1,7 +1,5 @@
 ---
 status: active
-owner: me
-last_updated: 2026-09-18
 ---
 
 # House rules

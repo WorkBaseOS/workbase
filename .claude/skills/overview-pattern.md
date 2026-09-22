@@ -6,12 +6,10 @@ Every work container (each operation, each project, each desk) carries `_overvie
 
 ```
 status: active | waiting | done
-owner: me            # the CONTAINER's owner
-last_updated: 2026-09-18
 due: 2026-10-15      # projects only, and only where a real deadline exists
 ```
 
-`owner:` names who is responsible for the container; `me` is the Workbase owner. Individual actions carry their own "who" in the actions section — a project owned by "me" can hold a commitment someone else made. In action lines and prose, people go by first name, the owner included; "me" is a frontmatter convention only.
+Nothing else goes in the frontmatter: dates live in the dated entries below, and people are named in the lines they belong to, the owner by first name like anyone else.
 
 ## Sections
 
@@ -26,6 +24,10 @@ The decisions that shape this work: what was decided, when, and the reason in a 
 
 ### Recent changes
 Dated, meaningful outcomes only, newest first, with a source reference when available ("per the client's email, 2026-09-18"). This section exists because current state alone cannot tell what happened in a given week. It is not a diary: filing a reference document, routine reading, or small edits never create an entry. If the work-state didn't meaningfully change, nothing is written here.
+
+## Starting a container
+
+A new container is a folder named for the work — "Spring leadership programme", not a slug — with `_overview.md` in this shape: `status: active`, `due` only for a project with a real deadline; Current state (what is known now, one to three sentences); Open actions & commitments (only what was stated — none invented); Key decisions; Recent changes (one entry: created, from what). A desk also has `charter.md` with four parts: the craft, where the work happens, craft standards, and the pointer to the brain. Nothing else at birth — no empty subfolders. Ask only what matters: the goal, and a deadline only where one genuinely exists. All four sections are always present; an empty one reads "None yet."
 
 ## Inside a container
 
