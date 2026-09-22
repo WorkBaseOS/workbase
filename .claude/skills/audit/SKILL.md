@@ -1,70 +1,20 @@
 ---
 name: audit
-description: Health check of this Workbase - finds what has gone stale, contradictory, duplicated, or unhandled, leads with the one correction that matters most, and saves a dated report. Use when the user says "audit my Workbase", "health check", "is my Workbase in order", "what has drifted", or as a weekly habit. Reads only; repairs only what the owner picks, and only repairs that change no meaning.
+description: Tidy check of this Workbase - what is finished and should be archived, what has sat too long, and what contradicts itself. Use when the user says "audit my Workbase", "tidy check", "what has drifted", or as a weekly habit. Reads only; fixes only what the owner picks.
 ---
 
 # Audit
 
-Read `.claude/skills/overview-pattern.md` before interpreting any work overview.
+Read `.claude/skills/overview-pattern.md` before touching any work overview.
 
-You are keeping this Workbase active and effective: finding where its truth has drifted from reality, where two places disagree on one fact, and where things arrived but were never handled — so the owner can decide what to do about it. You find and propose; the owner decides; you repair only what they pick, and only when the repair changes no meaning.
+Three checks, read from the overviews and the tray. Change nothing until the owner picks.
 
-## 1. Read everything, change nothing
+1. **Finished but not archived.** A project past its due date, or whose overview says the work is done, still sitting under `03-projects/` or `02-operations/`. Everything there is ongoing by definition; finished work belongs in `99-archive/`.
+2. **Sat too long.** Tray items older than a week; open actions past their date with nothing recorded since.
+3. **Contradicts itself.** Two overviews, or an overview and a tray item, that disagree on one fact — a date, a number, a status.
 
-The constitution, `00-brain/`, every `_overview.md` under `02-operations/`, `03-projects/`, and `90-desks/`, the most recent report in `99-archive/audits/` if one exists, and the tray — contents included. You read tray items to detect that an overview is behind them; you never file, interpret, or act on them. Processing is its own skill and makes decisions an audit must not make. Note today's date.
+Report in plain sentences: the one thing to fix first, then each finding with what to do, then any question only the owner can answer. Five findings at most in the chat; the rest go in the saved report. Save the report as `99-archive/audits/<date>-audit.md` (create the folder if needed), then stop.
 
-## 2. The checks
+On the owner's word: archive what they name, keeping the folder's path — and nothing else. A contradiction is theirs to resolve; a stale action is theirs to close.
 
-Each check has a yes-or-no answer and a file behind it. Label every finding by the kind of problem: **stale** (a record older than what a later record says), **conflicting** (two records disagree), **missing** (a required element is absent), **unhandled** (intake not handled). Owner questions are labeled **check**.
-
-**Intake**
-- Tray items older than 3 days by the date in their file name; undated items that were already there at the previous audit.
-
-**Behind the tray**
-- An overview whose Current state or actions a tray item supersedes (a date moved, a request made, a completion reported, an awaited item arrived). The fix for this class is always the same — process the tray — and you never write out edits drawn from unhandled items.
-
-**Work-state, per overview**
-- Missing `status`, or a missing section.
-- The newest Recent changes entry more than 14 days old while open actions exist — a weak signal; the audit's own repairs never count.
-- Current state contradicted by a later Recent changes entry, or by another overview.
-- Open actions with neither date nor trigger that the previous audit already listed.
-- Past-due actions with nothing recorded since.
-- A project past its `due` date and still active; a container marked done and not archived.
-- The same commitment in two overviews, whether the wording or the date differs. The project or operation owns a commitment; a desk points at it.
-
-**Brain**
-- Priorities whose stated period has passed or ends within two weeks; people named in overviews who appear nowhere in the brain (`team.md` or `business-profile.md`); `voice.md` absent or the rules in `house-rules.md` still empty; external systems that overviews name as a source of truth with no `where-things-live.md` listing them.
-
-**Structure**
-- A folder under `02-operations/`, `03-projects/`, or `90-desks/` without `_overview.md`; a desk without a charter; files in the root or in `00-brain/` that belong in a container.
-
-## 3. The report
-
-The saved report carries everything below, with IDs and labels, so the next audit can track findings. **The chat shows the plain version:** the one correction, the verdict, at most five findings as ordinary sentences — what is wrong, in business terms, and what to do — and the questions for the owner; then one line saying where the full report is. No IDs, no labels, no file paths in the chat. In this order:
-
-1. **The one correction that matters most** — the finding that most improves what the other skills produce this week: what, and why, in two lines. With no findings, the lead names the most useful owner check, or says plainly that the workspace is in order.
-2. **Verdict** — one plain sentence ("in order structurally; behind on intake").
-3. **Findings**, ordered by damage: behind the tray and stale answers first, then conflicts, then missing elements, then tidiness. Each: `AUD-<YYYY-MM-DD>-<n>` · label · what · the file(s) · the proposed fix, marked "mechanical" or "changes meaning". Never invent findings to fill a list — "no findings" is a valid section.
-4. **Checks for the owner** — anything only they can answer, as questions, each with an ID `CHK-<YYYY-MM-DD>-<n>` so the next audit can recheck it.
-5. **Since last audit** — for every finding and check in the previous report, by ID: resolved (with today's evidence), still open, new, or not rechecked. No previous report: "first audit — baseline". A same-day re-audit keeps the IDs.
-6. **Counts** — findings by label, tray items, overviews read, and what you did not read.
-
-Save the report as `99-archive/audits/<YYYY-MM-DD>-audit.md` (create the folder if needed; a second report the same day gets `-2`), as a plain Markdown file, before offering any repair, and say where it is. Keep earlier reports.
-
-## 4. Repairs — only on the owner's word
-
-After the report, stop. When the owner picks findings to fix:
-
-- **Mechanical and meaning-preserving — do them:** add a missing `status` or a missing empty section; move a done container to `99-archive/` keeping its path; create `00-brain/where-things-live.md` from the external systems the overviews name, each marked "to confirm". List the files you touched in the report so the next audit does not read them as work.
-- **Meaning-changing — propose, never do on your own:** merging duplicated state into one overview, rewording or dating a commitment, resolving a contradiction, closing an action. Write the proposed edit out in full; the owner applies it, or says "do it" per item.
-- **Never:** delete anything; change the constitution; alter facts in `00-brain/`; write into an overview's Current state; write edits drawn from unhandled tray items.
-
-Append what you repaired to the saved report under "Repaired on the owner's word", dated. The next audit verifies it with fresh evidence — a repair is never marked resolved in the run that made it.
-
-## Rules
-
-- **Reading is not writing.** Nothing changes before the report is saved and the owner has chosen.
-- **Evidence, not presence.** A file existing proves nothing; say what you read and what you did not.
-- **The owner decides.** Every finding ends in an action the owner can accept, reject, or answer. Owner questions live in the report and in the chat, not in the overviews; an answer enters the work-state through the normal path.
-- **No score**, and no checks on tools or schedules this Workbase does not have.
-- **Weekly is a good rhythm** while the workspace is young. Suggest it once, at the end of the first audit.
+Evidence, not presence — say what you read. The owner decides. No score.
