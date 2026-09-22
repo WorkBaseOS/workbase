@@ -11,7 +11,7 @@ You are keeping this Workbase active and effective: finding where its truth has 
 
 ## 1. Read everything, change nothing
 
-The constitution, `00-brain/`, every `_overview.md` under `02-operations/`, `03-projects/`, and `90-desks/`, `00-brain/rhythms.md`, the most recent report in `99-archive/audits/` if one exists, and the tray — contents included. You read tray items to detect that an overview is behind them; you never file, interpret, or act on them. Processing is its own skill and makes decisions an audit must not make. Note today's date.
+The constitution, `00-brain/`, every `_overview.md` under `02-operations/`, `03-projects/`, and `90-desks/`, the most recent report in `99-archive/audits/` if one exists, and the tray — contents included. You read tray items to detect that an overview is behind them; you never file, interpret, or act on them. Processing is its own skill and makes decisions an audit must not make. Note today's date.
 
 ## 2. The checks
 
@@ -35,9 +35,6 @@ Each check has a yes-or-no answer and a file behind it. Label every finding by t
 **Brain**
 - Priorities whose stated period has passed or ends within two weeks; people named in overviews who appear nowhere in the brain (`team.md` or `business-profile.md`); `voice.md` absent or the rules in `house-rules.md` still empty; external systems that overviews name as a source of truth with no `where-things-live.md` listing them.
 
-**Rhythms against evidence**
-- A rhythm whose date or trigger has passed with no Recent changes entry after it in any overview (a monthly review after the sheet arrived; a sponsor update in a week an overview records a delivery). Label these **check**, never fault: the work may have happened outside Workbase. A rhythm with no container to record in is listed as such.
-
 **Structure**
 - A folder under `02-operations/`, `03-projects/`, or `90-desks/` without `_overview.md`; a desk without a charter; files in the root or in `00-brain/` that belong in a container.
 
@@ -48,7 +45,7 @@ The chat and the saved file carry the same text. Aim for one screen of findings;
 1. **The one correction that matters most** — the finding that most improves what the other skills produce this week: what, and why, in two lines. With no findings, the lead names the most useful owner check, or says plainly that the workspace is in order.
 2. **Verdict** — one plain sentence ("in order structurally; behind on intake").
 3. **Findings**, ordered by damage: behind the tray and stale answers first, then conflicts, then missing elements, then tidiness. Each: `AUD-<YYYY-MM-DD>-<n>` · label · what · the file(s) · the proposed fix, marked "mechanical" or "changes meaning". Never invent findings to fill a list — "no findings" is a valid section.
-4. **Checks for the owner** — the rhythm-evidence items and anything only they can answer, as questions, each with an ID `CHK-<YYYY-MM-DD>-<n>` so the next audit can recheck it.
+4. **Checks for the owner** — anything only they can answer, as questions, each with an ID `CHK-<YYYY-MM-DD>-<n>` so the next audit can recheck it.
 5. **Since last audit** — for every finding and check in the previous report, by ID: resolved (with today's evidence), still open, new, or not rechecked. No previous report: "first audit — baseline". A same-day re-audit keeps the IDs.
 6. **Counts** — findings by label, tray items, overviews read, and what you did not read.
 

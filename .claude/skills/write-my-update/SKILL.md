@@ -16,12 +16,12 @@ If `01-in-tray/` holds unprocessed items (anything except its README and `unclea
 ## 1. Settle the reader and the period — two questions at most
 
 - **Reader:** who receives it, and which kind — **upward** (a manager, a board), **outward** (a client, a partner), **across** (the team). Take it from the request when named; ask otherwise. `00-brain/team.md` says who people are.
-- **Period:** from the request ("last week" means Monday to Sunday; "this week" mid-week means Monday to today for what happened and today to Sunday for what's next); else from a rhythm in `00-brain/rhythms.md` that names an update to this reader; else since the last "update sent to <reader>" entry in the overviews in scope; else ask, one line. A meeting rhythm gives a cadence, not a period — it does not settle this.
+- **Period:** from the request ("last week" means Monday to Sunday; "this week" mid-week means Monday to today for what happened and today to Sunday for what's next); else since the last "update sent to <reader>" entry in the overviews in scope; else ask, one line.
 - **Scope follows from the reader — don't ask.** Outward: every container about that client or partner; from a container about several clients, only the entries about this one. Upward: everything the owner is accountable for, or the containers the request names. Across: the team's work. State the scope in the header so the owner can narrow it in a word.
 
 ## 2. Read
 
-Every overview in scope; `00-brain/rhythms.md`; `00-brain/voice.md` for the register (external for outward, internal for upward and across — say which you used); `00-brain/house-rules.md` for language and length preferences; the rest of `00-brain/` for who people are and what the business is.
+Every overview in scope; `00-brain/voice.md` for the register (external for outward, internal for upward and across — say which you used); `00-brain/house-rules.md` for language and length preferences; the rest of `00-brain/` for who people are and what the business is.
 
 **The voice samples give register only.** No phrase, date, promise, or claim from a sample enters a draft — the samples describe how the owner sounds, not what is true now. Every sentence of substance comes from the overviews.
 
@@ -41,7 +41,7 @@ Below the draft, for the owner only, **Sources**: one line per block naming the 
 
 ## 4. Check before handing over
 
-- **Grounded.** Every sentence of substance traces to an overview, rhythms, or the owner; brain files supply who people are and what the business is, never the state of work; voice samples supply nothing. No completion the overview does not record; no date the overview does not hold.
+- **Grounded.** Every sentence of substance traces to an overview or the owner; brain files supply who people are and what the business is, never the state of work; voice samples supply nothing. No completion the overview does not record; no date the overview does not hold.
 - **Audience-safe.** Anything about a person, a client's confidence, or another client's business stays out of an outward update, and out of any update where it does not belong — and is named to the owner ("left out: the note about a participant; say if it belongs"). Constitution rule 4 governs.
 - **Register.** Matches the voice samples for this audience and the language the house rules ask for.
 - **No AI tells.** No em dashes unless the owner's own samples use them, no filler openers, no generic closers, no bullet lists where the owner writes prose, no label-and-colon scaffolding.
@@ -51,7 +51,7 @@ Below the draft, for the owner only, **Sources**: one line per block naming the 
 
 Hand the draft over with one sentence naming what you left out or are unsure of. The owner sends it from their own tool.
 
-When the owner says it was sent, and the update was outward or the scope was a single container, add one entry under Recent changes in that container's overview — "<date> — update sent to <reader>, period <from> to <to>" — and update its `last_updated`. An update reaching its reader is a meaningful outcome for that container, and it gives the next update its period. For an upward or across update spanning several containers, write nothing; the rhythm sets the next period. Nothing else changes: writing an update never marks work done or moves a date.
+When the owner says it was sent, and the update was outward or the scope was a single container, add one entry under Recent changes in that container's overview — "<date> — update sent to <reader>, period <from> to <to>" — and update its `last_updated`. An update reaching its reader is a meaningful outcome for that container, and it gives the next update its period. For an upward or across update spanning several containers, write nothing; the next update asks its period. Nothing else changes: writing an update never marks work done or moves a date.
 
 ## Rules
 
