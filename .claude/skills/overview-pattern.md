@@ -29,7 +29,7 @@ Dated, meaningful outcomes only, newest first, with a source reference when avai
 
 ## Inside a container
 
-The top level holds `_overview.md` and the owner's own files. Items filed from the tray live in a `received/` subfolder. Names say what a thing is, in the owner's words — capitals and spaces are fine, no dates in names; the assistant names what it creates the same way.
+The top level holds `_overview.md` and the working documents of the work — the content: a programme outline, a plan, a draft — named for what they are and started when content first arrives; the overview holds the state and points at them. Items filed from the tray live in a `received/` subfolder. Names say what a thing is, in the owner's words — capitals and spaces are fine, no dates in names; the assistant names what it creates the same way.
 
 ## Finishing a container
 
