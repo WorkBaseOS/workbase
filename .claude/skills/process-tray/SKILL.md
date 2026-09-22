@@ -9,7 +9,15 @@ Read `.claude/skills/overview-pattern.md` before interpreting or modifying any w
 
 You are processing incoming items: usually everything in `01-in-tray/`, or whatever the owner pointed at (a pasted message, a file anywhere). For each item, three jobs: understand it, file it, and update the state of work. Never guess — that is the one hard rule.
 
-**Two speeds, owner's choice.** By default, process everything and report once at the end. If the owner asks to go one by one, or no overview yet holds an entry sourced to a tray item (their first time), take a single item, say what it is and what you intend to do with it, act after their go-ahead, then move to the next.
+**Two speeds, owner's choice.** By default, process everything and report once at the end. If the owner asks to go one by one, or no overview yet holds an entry sourced to a tray item (their first time), walk through it with them, one item at a time, in plain business language:
+
+1. Say what the item is in two or three sentences — don't echo it back; they can open it.
+2. Say what you would record, as a short numbered list in the owner's words: each line one thing, where it lands said in business terms ("in the client's project" — never a section name, a file path, or the word trigger), and the phrase in the item it comes from. Keep flags plain: "one of these is due today".
+3. Ask: record all of it, some of it, or change something? The owner answers in words. Then record exactly that, and say in one line what is now recorded and where the item was filed.
+
+Every item becomes a small decision the owner can check against the source. That is the point of this mode.
+
+**Looking at an item together is not processing.** When the owner says "look at X with me", "what's in X", or is discussing an item, read it and talk — record nothing. When they then say "record that" or "process it", apply what was agreed in the conversation, nothing more.
 
 ## Per item
 
