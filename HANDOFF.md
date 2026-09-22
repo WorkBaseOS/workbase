@@ -1,15 +1,17 @@
 # Handoff — where I left off
 
-Your own thread from one session to the next. At the end of a session, say **"closing for today"** (or /close-day). Your assistant asks two questions — what's on your plate, what to pick up next time — and writes your answers here as today's entry, newest on top, and carries forward anything from the last entry you said wasn't done. Next time, say **"where did I leave off?"** and it reads this back to you.
+Saves where you stopped, so you can return later and know where to continue. Use it whenever you pause or switch work; it isn't tied to any schedule.
 
-Nothing else changes when you close: the project overviews are only updated when you say "and record … in the project".
+**Saving:** say "save a handoff" or "I'm stopping here". Your assistant asks one question — where are you leaving things, and what's the next step? — or, if the conversation already says it, drafts a summary and asks "Is this right?". It saves three things below, under the project or work you were on, and carries forward anything still open.
 
-## Entries
+**Resuming:** say "where did I leave off?" and you get a brief recap: what you finished, what's still open, your next step. It only starts working if you ask.
 
-_(none yet — your first "closing for today" starts this)_
+---
 
-Each entry looks like this:
+## General
 
-**2026-09-22**
-On my plate: … (your words)
-Next time: … (a short list; unfinished items from the previous entry carry forward)
+*Last updated: —*
+
+**Current status:** —
+**Open items:** —
+**Next step:** —
