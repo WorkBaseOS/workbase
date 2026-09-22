@@ -40,7 +40,7 @@ Each check has a yes-or-no answer and a file behind it. Label every finding by t
 
 ## 3. The report
 
-The chat and the saved file carry the same text. Aim for one screen of findings; a finding may take several sentences when it cites two files. In this order:
+The saved report carries everything below, with IDs and labels, so the next audit can track findings. **The chat shows the plain version:** the one correction, the verdict, at most five findings as ordinary sentences — what is wrong, in business terms, and what to do — and the questions for the owner; then one line saying where the full report is. No IDs, no labels, no file paths in the chat. In this order:
 
 1. **The one correction that matters most** — the finding that most improves what the other skills produce this week: what, and why, in two lines. With no findings, the lead names the most useful owner check, or says plainly that the workspace is in order.
 2. **Verdict** — one plain sentence ("in order structurally; behind on intake").

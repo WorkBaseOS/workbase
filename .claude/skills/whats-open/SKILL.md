@@ -31,9 +31,9 @@ Then these sections, in this order, each left out when empty:
 - **Coming up** — dated actions in the two calendar weeks after this one.
 - **Waiting on a trigger** — actions with a trigger instead of a date, trigger not recorded.
 - **Open, no date or trigger** — actions that carry neither; often the newest ones. They are open all the same.
-- **What changed last week** — Recent changes entries dated in the previous calendar week or this week so far, one line each, newest first, container named; same-day entries in the order the overview lists them, and across overviews in folder order (operations, projects, desks). Entries that only record a container being created are not changes in the work — leave them out.
+- **What changed last week** — Recent changes entries dated in the previous calendar week or this week so far, one line each, newest first, container named; same-day entries in the order the overview lists them, and across overviews in folder order (operations, projects, desks). Entries that only record a container being created are not changes in the work — leave them out. Show the five newest; if there are more, one line: "and N more — say 'show all changes'".
 
-Each action line reads: **what** — **who** — date or trigger · container. The view addresses the owner as "you"; overviews use names. Other people's actions are listed so the owner stops carrying them in their head, labeled as theirs.
+Each action line reads: **what** — **who** — date or trigger · container. An aside on a line only when it changes the meaning (a trigger only partly met); otherwise none. The view addresses the owner as "you"; overviews use names. Other people's actions are listed so the owner stops carrying them in their head, labeled as theirs.
 
 Close with two lines: the counts — action lines in the six open sections (past due through open-no-date), by owner, "Yours 5 · team 5 · client 1, in this Workbase" — "yours" always shown, even at zero; other groups with zero omitted — and "This is a view; your overviews are unchanged." Render the title as a heading and each section name as a sub-heading, so every view looks the same.
 
