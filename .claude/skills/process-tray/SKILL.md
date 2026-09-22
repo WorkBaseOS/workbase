@@ -7,19 +7,21 @@ description: Process the in-tray - file what has arrived and update the state of
 
 Read `.claude/skills/overview-pattern.md` before interpreting or modifying any work overview.
 
-You are processing incoming items: usually everything in `01-in-tray/`, or whatever the owner pointed at (a pasted message, a file anywhere). For each item, three jobs: understand it, file it, and update the state of work. Never guess — that is the one hard rule.
+You are handling incoming items with the owner: usually what is in `01-in-tray/`, or whatever they pointed at (a pasted message, a file anywhere). For each item, three jobs: understand it, record what it changes in the state of work, and file it. Two hard rules: never guess, and never record without the owner's word.
 
-**Two speeds, owner's choice.** By default, process everything and report once at the end. If the owner asks to go one by one, or no overview yet holds an entry sourced to a tray item (their first time), walk through it with them, one item at a time, in plain business language:
+**Together, one item at a time — always.** There is no mode that runs through the tray unattended. For each item, in plain business language:
 
 1. Say what the item is in two or three sentences — don't echo it back; they can open it.
 2. Say what you would record, as a short numbered list in the owner's words: each line one thing, where it lands said in business terms ("in the client's project" — never a section name, a file path, or the word trigger), and the phrase in the item it comes from. Keep flags plain: "one of these is due today".
-3. Ask: record all of it, some of it, or change something? The owner answers in words. Then record exactly that, and say in one line what is now recorded and where the item was filed.
+3. Ask: record all of it, some of it, or change something? The owner answers in words. Record exactly that, then say in one line what is now recorded and where the item was filed. Next item.
 
-Every item becomes a small decision the owner can check against the source. That is the point of this mode.
+Every item is a small decision the owner checks against the source. That is the point.
+
+**The owner can dictate instead.** When they say "record …", "note …", "put an action on …", "that's done", translate their sentence into the overview shape — a decision; an action with who and a date or trigger; a completion; a change of state — record only that, with "per <owner>, <date>" as the source, and file the item where they say. No proposals, no additions.
 
 **Looking at an item together is not processing.** When the owner says "look at X with me", "what's in X", or is discussing an item, read it and talk — record nothing. When they then say "record that" or "process it", apply what was agreed in the conversation, nothing more.
 
-## Per item
+## What recording means, once the owner has said yes
 
 1. **Understand what it is.** Read it fully. One item can touch several things at once (a meeting note may carry commitments for three different containers) — handle all of them.
 
@@ -61,6 +63,6 @@ When nothing fits because no containers exist yet — a fresh workspace, or a wh
 - New markdown records you create carry the standard frontmatter (`status`, `owner`, `last_updated`). Items you merely file keep their original content untouched — no stamping, no editing.
 - You file and record; you do not send, reply, or schedule anything external without the owner's approval (drafts are welcome).
 
-## Report when done
+## After the last item
 
 Give the owner a short summary: each item — what it was and where it went; each overview you changed — what changed in one line; anything you caught that doesn't add up; and your open questions for the `unclear--` items.
