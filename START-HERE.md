@@ -8,7 +8,7 @@ Welcome to **WorkbaseOS** — your AI business workspace in Claude or Codex. Set
 
 ## What this is
 
-One place where your assistant knows your business, keeps the state of your work current, and helps you run your week — instead of starting from zero in every chat. Folders you can open and read; plain files that are yours, with no separate task-management app required.
+One place where your assistant knows your business, keeps the state of your work current, and helps you run your week — instead of starting from zero in every chat. Think of it as a second brain for your business: it helps you operate, and it remembers what was decided, promised, and changed better than you can. Folders you can open and read; plain files that are yours, with no separate task-management app required.
 
 Your Workbase is your *personal* workspace. It works alongside the shared systems your team relies on — your drive, your CRM, your pipeline sheet: you prepare and decide here; what the team needs lives there.
 
@@ -36,4 +36,4 @@ Your Workbase is your *personal* workspace. It works alongside the shared system
 
 Everything here is yours — every file can be edited, by you or by your assistant on your behalf. **Template updates never overwrite your customizations or files:** changed by you → never replaced; unchanged from what we shipped → updated freely; created by you → not ours to touch, ever.
 
-**One tip about `00-brain/house-rules.md`:** that file is for anything you want your assistant to *always* do your way — "write my drafts in Dutch," "keep my emails short," "never plan calls before 10." Just tell your assistant a rule like that once and it will record it there. Keep such rules in house-rules.md rather than editing `AGENTS.md` (the template's own rulebook): that way, improvements we make to the template's rules in future versions can still reach you.
+**One tip about `00-brain/house-rules.md`:** that file is for anything you want your assistant to *always* do your way — "keep my client emails short," "always show me a draft before anything goes out," "never plan calls before 10." Just tell your assistant a rule like that once and it will record it there. Keep such rules in house-rules.md rather than editing `AGENTS.md` (the template's own rulebook): that way, improvements we make to the template's rules in future versions can still reach you.
