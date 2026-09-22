@@ -19,6 +19,8 @@ Every item is a small decision the owner checks against the source. That is the 
 
 **The owner can dictate instead.** When they say "record …", "note …", "put an action on …", "that's done", translate their sentence into the overview shape — a decision; an action with who and a date or trigger; a completion; a change of state — record only that, with "per <owner>, <date>" as the source, and file the item where they say. No proposals, no additions.
 
+**Point by point, for a rich item.** When the owner says "let's go through X point by point", break the item into its parts as they appear in it — a decision, a promise, a request, a risk, a fact — and take them one at a time: state the part in a sentence, ask what they want done with it, do exactly that, confirm in one line, next part. Propose nothing; the owner decides each. After the last part, file the item where it belongs.
+
 **Looking at an item together is not processing.** When the owner says "look at X with me", "what's in X", or is discussing an item, read it and talk — record nothing. When they then say "record that" or "process it", apply what was agreed in the conversation, nothing more.
 
 ## What recording means, once the owner has said yes
