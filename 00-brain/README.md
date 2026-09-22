@@ -6,6 +6,6 @@ Stable facts live here: who you are, what your business is and offers, who your 
 **What never belongs here:** tasks, project status, drafts, or anything in motion — those live in operations and projects.
 **The one rule:** when a fact about the business changes, it changes here.
 
-Onboarding ("onboard me") fills this folder with you: `business-profile.md`, `team.md`, `priorities.md`, and `voice.md`. Each is yours to edit afterwards.
+Onboarding ("onboard me") fills this folder with you: `business-profile.md`, `team.md`, `priorities.md`, `voice.md`, and `where-things-live.md`. Each is yours to edit afterwards.
 
 One special file lives in this folder: `house-rules.md` — your standing preferences, in your words. Your assistant always applies them.

@@ -5,7 +5,7 @@ description: First-run interview that teaches this Workbase who the owner is and
 
 # Onboard the owner
 
-You are filling `00-brain/` with the durable context every later task pulls from: who the owner is, what the business is, who they work with, what they are aiming for, and how they write. Five questions, one at a time. The owner does as little typing as possible: they answer in whichever way suits them, you do the reading and the writing.
+You are filling `00-brain/` with the durable context every later task pulls from: who the owner is, what the business is, who they work with, what they are aiming for, and how they write. Six questions, one at a time. The owner does as little typing as possible: they answer in whichever way suits them, you do the reading and the writing.
 
 **The one rule:** capture what is relevant to the owner's responsibilities and available from their answers or sources. Missing information never blocks onboarding — an employed manager may not know the revenue model, and this Workbase still helps them.
 
@@ -15,47 +15,51 @@ You are filling `00-brain/` with the durable context every later task pulls from
    - Before touching anything, copy the brain files to `99-archive/onboarding-backup-<YYYY-MM-DD-HHMM>/`. Tell the owner in one line that a dated copy was kept in the archive folder.
    - Keep everything already known unless the owner corrects it. Existing files keep their shape: add what is new under the standard headings at the end of the file; never reorganize, reword, or reorder what is there.
    - A question fully answered already is skipped with a one-line confirmation. A question partly answered gets the confirmation line plus its gaps, asked together in one turn — that turn is its one follow-up.
-2. Tell the owner, in three or four lines, what is about to happen: five short questions, one at a time; they can point you at something (a website, a document dropped into the chat or the in-tray, an app they have already connected), type, or dictate; anything they don't know or that doesn't apply, they say so and you move on.
+2. Tell the owner, in three or four lines, what is about to happen: six short questions, one at a time; they can point you at something (a website, a document dropped into the chat or the in-tray, an app they have already connected), type, or dictate; anything they don't know or that doesn't apply, they say so and you move on.
 
 ## How the interview runs
 
-- **One question at a time**, with progress shown ("2 of 5"). Plain business language throughout — no talk of files, folders, or formats while interviewing.
+- **One question at a time**, with progress shown ("2 of 6"). Plain business language throughout — no talk of files, folders, or formats while interviewing.
 - **When the owner points at a source, read it first.** Draft the answer from the source, then ask only for what the source does not say. Where a website answers most of question 2, the owner should hear a two-line recap and one gap question, not the full question again.
 - **One follow-up at most per question.** Each question below carries an extraction guide: what a rich answer tends to contain. It steers your reading and your single follow-up — spend the follow-up on the gap that matters most for the owner's responsibilities. It is never a checklist the owner must complete.
 - **Write as you go.** As soon as a question is answered, write or extend its brain file (each question names the file it feeds). An interrupted run loses nothing, and a later "onboard me" picks up where it stopped.
 - **No confirmation gates between questions.** One combined summary at the end, corrected once, is enough.
 - **House rules, whenever they surface.** If the owner states a standing preference at any point ("always keep client emails short", "never plan anything on Friday afternoon"), add it as a bullet under `## Rules` in `00-brain/house-rules.md` right away (add the heading if it is missing). If the rule is already there in substance — in house-rules or as a rule of the constitution — add nothing and say so in the summary. A preference merely implied by one remark is not a rule — offer it in the summary as a suggestion instead.
 
-## The five questions
+## The six questions
 
-### 1 of 5 — You
+### 1 of 6 — You
 "Who are you — your name and position — what are you responsible for, and what do you personally produce or deliver? And what are you judged on?"
 Extraction guide: name · title · scope of responsibility · the craft work they do themselves · what they are judged on (for an owner that is usually the business's own numbers — leave those to question 2). The answer shapes the wording of later questions: a manager gets "who do you report to", an owner "who do you answer to, if anyone", a solo operator skips the team half of question 3.
 Writes: `00-brain/team.md`, created now with the **Me** section only.
 Point at: a LinkedIn or about page.
 
-### 2 of 5 — The business
+### 2 of 6 — The business
 "What does the business do and sell, and for whom? How is it organized — which teams or departments, and where do you sit? And how does it make money?"
 Extraction guide: what it does · offers or services, and which matter most · customer segments and the clients that matter most, by name · structure: teams or departments and where the owner's part sits · business model · the numbers that tell them it is going well. Capture what touches the owner's responsibilities: a department manager's profile is about their department and the company around it. If "how it's organized" comes back as a way of working rather than a structure, keep it — it has its own heading.
 Writes: `00-brain/business-profile.md`.
 Point at: the website, a deck, a brochure, an org chart.
 
-### 3 of 5 — The people
+### 3 of 6 — The people
 "Who do you work with: your team, who you answer to, and the outside contacts who show up in your week?"
 Extraction guide: for each person, a name, a role, and what they own or bring · who the owner answers to, if anyone · the outside contacts that recur (clients, partners, suppliers, an accountant). The people who regularly appear in their work — not a directory. If question 1 already settled that nobody is above the owner, leave that part out of the question.
 Writes: the remaining sections of `00-brain/team.md`, appended to the file created in question 1.
 Point at: a team page, an org chart, a page in their HR or wiki tool.
 
-### 4 of 5 — Goals and priorities
+### 4 of 6 — Goals and priorities
 "What are the goals for the business and for your part of it, and what are you pushing on right now?"
 Extraction guide: strategic goals · constraints the owner has set on the business (a ceiling on engagements, a hiring freeze — goals-level even when dated) · current areas of emphasis · for the owner personally, what they want more or less of in their role. Ask once for a date or a measure where one exists; drop it where it doesn't.
 Writes: `00-brain/priorities.md` — goals and emphasis only. **Specific deliverables, deadlines, and actions do not go here**; they belong in a project's or operation's overview. If an answer reveals an active project or ongoing responsibility, note it in the closing summary — do not create it during onboarding.
 Point at: a strategy note, a goals or OKR page, a planning document.
 
-### 5 of 5 — Voice and language
+### 5 of 6 — Voice and language
 "Paste one or two things you wrote recently, unedited — one internal, one external if you can — or drop the documents in. Which language do you write in, and to whom?"
 Samples are optional. If none are at hand, take a short preference instead ("plain English, concise internally, warmer with clients") and refine it later, the first time a draft gets corrected.
 Writes: `00-brain/voice.md` (shape below). The language goes into `00-brain/house-rules.md` as a rule.
+
+### 6 of 6 — Where things live
+"Where do your tasks, your calendar, your files, your email, your customers or pipeline, and your numbers live?" One line each — the tool, and a link or name where there is one. "Nowhere yet" is a fine answer.
+Writes: the table in `00-brain/where-things-live.md`. Nothing is connected here; this is so the assistant knows where to point.
 
 ## Files you write
 
