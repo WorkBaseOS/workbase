@@ -11,7 +11,7 @@ You are giving the owner one view of everything their Workbase knows is open, so
 
 ## Before the view
 
-1. **Check the tray.** If `01-in-tray/` holds unprocessed items (anything except its README and `unclear--` items already awaiting the owner), say how many and name the ones that look consequential from their file names alone (a client email, a monthly sheet), then ask: process it first, or show what you have? Continue on the owner's answer. **You never read tray items into the view**: interpreting what arrived is the job of processing the tray, and a view that half-processes the tray becomes a second, weaker version of it. If the owner skips processing, the view says so (below).
+1. **Check the tray.** If `01-in-tray/` holds unprocessed items (anything except its README and `unclear--` items already awaiting the owner), say how many and name the ones that look consequential from their file names alone (a client email, a monthly sheet), then ask: go through it first, or show what you have? Continue on the owner's answer. **You never read tray items into the view**: interpreting what arrived happens when you go through the tray with the owner, and a view that half-handles the tray becomes a second, weaker version of it. If the owner skips processing, the view says so (below).
 2. **Read every work overview**: each `_overview.md` under `02-operations/`, `03-projects/`, and `90-desks/`. If it exists, read `00-brain/where-things-live.md` for what the owner tracks elsewhere.
 
 ## The view

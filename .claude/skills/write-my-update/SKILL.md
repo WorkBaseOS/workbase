@@ -11,7 +11,7 @@ You are turning maintained work-state into an update someone will read: what hap
 
 ## 0. Check the tray
 
-If `01-in-tray/` holds unprocessed items (anything except its README and `unclear--` items already awaiting the owner), say how many and offer to process them first: an update written on a stale work-state reports last week's truth as this week's. Ask once per conversation. When the owner skips it, every draft that follows carries a visible line in its header — "written without N tray items from <dates>; if any concern this reader, process the tray first" — not a footnote.
+If `01-in-tray/` holds unprocessed items (anything except its README and `unclear--` items already awaiting the owner), say how many and offer to go through them first: an update written on a stale work-state reports last week's truth as this week's. Ask once per conversation. When the owner skips it, every draft that follows carries a visible line in its header — "written without N tray items from <dates>; if any concern this reader, go through the tray first" — not a footnote.
 
 ## 1. Settle the reader and the period — two questions at most
 
