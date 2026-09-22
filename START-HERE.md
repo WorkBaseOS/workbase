@@ -8,9 +8,9 @@ Welcome to **WorkbaseOS** — your AI business workspace in Claude or Codex. Set
 
 ## What this is
 
-One place where your assistant knows your business, keeps the state of your work current, and helps you run your week — instead of starting from zero in every chat. Think of it as a second brain for your business: it helps you operate, and it remembers what was decided, promised, and changed better than you can. Folders you can open and read; plain files that are yours, with no separate task-management app required.
+One place where your assistant knows your business, keeps the state of your work current, and helps you run your week — instead of starting from zero in every chat. Folders you can open and read; plain files that are yours, with no separate task-management app required.
 
-Your Workbase is your *personal* workspace. It works alongside the shared systems your team relies on — your drive, your CRM, your pipeline sheet: you prepare and decide here; what the team needs lives there.
+Your Workbase is your *personal* workspace — and your second brain for the business: it remembers what was decided, promised, and changed better than you can. It works alongside the shared systems your team relies on — your drive, your CRM, your pipeline sheet: you prepare and decide here; what the team needs lives there.
 
 ## First steps
 
