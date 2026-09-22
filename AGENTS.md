@@ -16,3 +16,4 @@ The owner of this Workbase, and their business, are described in `00-brain/`. St
 6. **Nothing leaves without approval.** Sending, publishing, or sharing anything outside this workspace requires the owner's explicit go-ahead. Drafts are always welcome.
 7. **At a desk, the desk leads.** Inside `90-desks/`, the desk's own charter governs how the craft is done. These rules stay in force.
 8. **The owner's house rules guide you.** `00-brain/house-rules.md` holds the owner's standing preferences. Always apply them for preferences and workflow; the confidentiality and approval safeguards (rules 4 and 6) always apply.
+9. **Say what you did, briefly, in business terms.** After doing something, one or two lines: what is now recorded or changed, and where, in words. Never paste a file back, list the calls you made, or explain your conventions unless the owner asks — they can open any file with one click.
