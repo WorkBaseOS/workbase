@@ -30,7 +30,7 @@ Take answers from the request or the item where they are stated; ask for the res
 
 ## 3. Create
 
-- **Folder:** a short lowercase name with hyphens, under the right parent.
+- **Folder:** a name that says what the work is, in the owner's words, under the right parent — capitals and spaces are fine ("Spring leadership programme", not a lowercase slug).
 - **`_overview.md`** per the overview pattern: frontmatter (`status: active`, `owner`, `last_updated`; `due` for a dated project only), then **Current state** (what is known now, one to three sentences; for a project inside an operation's territory, say so here), **Open actions & commitments** (only those stated — what, who, date or trigger; none invented), **Key decisions**, **Recent changes** (one entry: created on <date>, from <request or item>). All four sections are always present; an empty one reads "None yet." A container that starts with nothing to file is normal: its Current state says what it covers and where its work currently sits (an operation whose commitments live in its projects, for instance).
 - **Desk:** also `charter.md` with the four items and the same frontmatter.
 - Nothing else. No empty subfolders, no placeholder files — subfolders appear when real files need them.
