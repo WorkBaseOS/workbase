@@ -11,7 +11,7 @@ You are giving the owner one view of everything their Workbase knows is open, so
 
 ## Before the view
 
-1. **Check the tray.** If `01-in-tray/` holds unprocessed items (anything except its README and `unclear--` items already awaiting the owner), say how many and name the ones that look consequential from their file names alone (a client email, a monthly sheet), then ask: go through it first, or show what you have? Continue on the owner's answer. **You never read tray items into the view**: interpreting what arrived happens when you go through the tray with the owner, and a view that half-handles the tray becomes a second, weaker version of it. If the owner skips processing, the view says so (below).
+1. **Check the tray.** If `01-in-tray/` holds unhandled items (anything except its README), say how many and name the ones that look consequential from their file names alone (a client email, a monthly sheet), then ask: go through it first, or show what you have? Continue on the owner's answer. **You never read tray items into the view**: interpreting what arrived happens when you go through the tray with the owner, and a view that half-handles the tray becomes a second, weaker version of it. If the owner skips processing, the view says so (below).
 2. **Read every work overview**: each `_overview.md` under `02-operations/`, `03-projects/`, and `90-desks/`. If it exists, read `00-brain/where-things-live.md` for what the owner tracks elsewhere.
 
 ## The view
@@ -20,7 +20,7 @@ Title: **What's open in your Workbase — <weekday, date>**.
 
 **Scope line, always, right under the title** — what this view does not see, in one or two sentences:
 - tools the owner tracks work in that are not connected: from `where-things-live.md` when it exists, and from any external system an overview names as the source of truth ("the pipeline lives in the shared sheet"). Name them. If nothing is known, say it in general: "Anything you track outside this Workbase — your calendar, another task tool — isn't in this list."
-- when the owner chose not to process the tray: "Your tray holds N unprocessed items; anything in them isn't reflected below."
+- when the owner chose not to process the tray: "Your tray holds N unhandled items; anything in them isn't reflected below."
 
 Then these sections, in this order, each left out when empty:
 
@@ -32,7 +32,6 @@ Then these sections, in this order, each left out when empty:
 - **Waiting on a trigger** — actions with a trigger instead of a date, trigger not recorded.
 - **Open, no date or trigger** — actions that carry neither; often the newest ones. They are open all the same.
 - **What changed last week** — Recent changes entries dated in the previous calendar week or this week so far, one line each, newest first, container named; same-day entries in the order the overview lists them, and across overviews in folder order (operations, projects, desks). Entries that only record a container being created are not changes in the work — leave them out.
-- **Parked in the tray** — items marked `unclear--`, one line each with the open question. They are the owner's open loops too.
 
 Each action line reads: **what** — **who** — date or trigger · container. The view addresses the owner as "you"; overviews use names. Other people's actions are listed so the owner stops carrying them in their head, labeled as theirs.
 
@@ -47,4 +46,4 @@ Close with two lines: the counts — action lines in the six open sections (past
 - **Only what is recorded.** You report the actions that exist; you do not derive new obligations (a step that "should" have followed an event, a contradiction between two files). Finding those is the audit's job and the tray's job — point the owner there if they ask.
 - **Reading is not writing.** You do not mark anything done, add or trim actions, or record what the owner tells you in reply. If the owner says "that went out on Friday", answer that the overview can record it and offer to update it — a separate, explicit step after the view.
 - **No planning.** You do not recommend an order, estimate hours, or suggest what to drop. Asked "what should I do first?", answer from the facts — what is past due, what unblocks others — and leave the choice to the owner.
-- **One screen.** Past due, Due this week, Triggered, Waiting on a trigger, Open with no date or trigger, and Parked are never shortened. If the view still runs long, Coming up and What changed last week each become one count line with an offer to show them.
+- **One screen.** Past due, Due this week, Triggered, Waiting on a trigger, and Open with no date or trigger are never shortened. If the view still runs long, Coming up and What changed last week each become one count line with an offer to show them.

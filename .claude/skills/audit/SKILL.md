@@ -1,6 +1,6 @@
 ---
 name: audit
-description: Health check of this Workbase - finds what has gone stale, contradictory, duplicated, or unprocessed, leads with the one correction that matters most, and saves a dated report. Use when the user says "audit my Workbase", "health check", "is my Workbase in order", "what has drifted", or as a weekly habit. Reads only; repairs only what the owner picks, and only repairs that change no meaning.
+description: Health check of this Workbase - finds what has gone stale, contradictory, duplicated, or unhandled, leads with the one correction that matters most, and saves a dated report. Use when the user says "audit my Workbase", "health check", "is my Workbase in order", "what has drifted", or as a weekly habit. Reads only; repairs only what the owner picks, and only repairs that change no meaning.
 ---
 
 # Audit
@@ -15,13 +15,13 @@ The constitution, `00-brain/`, every `_overview.md` under `02-operations/`, `03-
 
 ## 2. The checks
 
-Each check has a yes-or-no answer and a file behind it. Label every finding by the kind of problem: **stale** (a record older than what a later record says), **conflicting** (two records disagree), **missing** (a required element is absent), **unprocessed** (intake not handled). Owner questions are labeled **check**.
+Each check has a yes-or-no answer and a file behind it. Label every finding by the kind of problem: **stale** (a record older than what a later record says), **conflicting** (two records disagree), **missing** (a required element is absent), **unhandled** (intake not handled). Owner questions are labeled **check**.
 
 **Intake**
-- Tray items older than 3 days by the date in their file name; undated items that were already there at the previous audit; `unclear--` items parked for more than 7 days.
+- Tray items older than 3 days by the date in their file name; undated items that were already there at the previous audit.
 
 **Behind the tray**
-- An overview whose Current state or actions a tray item supersedes (a date moved, a request made, a completion reported, an awaited item arrived). The fix for this class is always the same — process the tray — and you never write out edits drawn from unprocessed items.
+- An overview whose Current state or actions a tray item supersedes (a date moved, a request made, a completion reported, an awaited item arrived). The fix for this class is always the same — process the tray — and you never write out edits drawn from unhandled items.
 
 **Work-state, per overview**
 - Missing `status`, or a missing section.
@@ -57,7 +57,7 @@ After the report, stop. When the owner picks findings to fix:
 
 - **Mechanical and meaning-preserving — do them:** add a missing `status` or a missing empty section; move a done container to `99-archive/` keeping its path; create `00-brain/where-things-live.md` from the external systems the overviews name, each marked "to confirm". List the files you touched in the report so the next audit does not read them as work.
 - **Meaning-changing — propose, never do on your own:** merging duplicated state into one overview, rewording or dating a commitment, resolving a contradiction, closing an action. Write the proposed edit out in full; the owner applies it, or says "do it" per item.
-- **Never:** delete anything; change the constitution; alter facts in `00-brain/`; write into an overview's Current state; write edits drawn from unprocessed tray items.
+- **Never:** delete anything; change the constitution; alter facts in `00-brain/`; write into an overview's Current state; write edits drawn from unhandled tray items.
 
 Append what you repaired to the saved report under "Repaired on the owner's word", dated. The next audit verifies it with fresh evidence — a repair is never marked resolved in the run that made it.
 
