@@ -63,7 +63,7 @@ Writes: the table in `00-brain/where-things-live.md`. Nothing is connected here;
 
 ## Files you write
 
-Every file you create carries `status: active` in its frontmatter, nothing else. Use the headings below so later work finds the same shape every time; leave out any heading with nothing to say — an empty heading is worse than a missing one.
+No frontmatter on any file. Use the headings below so later work finds the same shape every time; leave out any heading with nothing to say — an empty heading is worse than a missing one.
 
 - `business-profile.md`: What we do · What we offer · Who we work with · How we're organized · How we work · How we make money · The numbers we watch.
 - `team.md`: Me · Team · Who I answer to (only when there is someone; otherwise one line in Me) · Outside the team.

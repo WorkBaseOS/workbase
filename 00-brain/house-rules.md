@@ -1,7 +1,3 @@
----
-status: active
----
-
 # House rules
 
 Your standing preferences, in your own words. Your assistant always applies them.

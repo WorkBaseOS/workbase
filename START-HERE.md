@@ -24,9 +24,9 @@ Your Workbase is your *personal* workspace — and your second brain for the bus
 
 **`01-in-tray/` — the tray on your desk.** Anything that needs handling lands here: notes, screenshots, PDFs, exports, messages from your email or Slack that need follow-up. However it arrives — dragged in by you, saved from an app, or delivered by a connector you've set up — it gets handled the same way. Go through it with your assistant when you're ready — one item at a time, in your own words; nothing is recorded until you say so.
 
-**`02-operations/` — the work that never ends.** Your ongoing responsibilities — marketing, finance, clients, the team — one folder per responsibility, each with its own overview of where things stand.
+**`02-operations/` — the work that never ends.** Your ongoing responsibilities — marketing, finance, clients, the team — one folder per responsibility, holding the work itself.
 
-**`03-projects/` — work with a defined finish.** A launch, a hire, a campaign — one folder each, with its own overview and a deadline where relevant, archived when done.
+**`03-projects/` — work with a defined finish.** A launch, a hire, a campaign — one folder each, holding the work itself — its plan, its notes, what came in — archived when done.
 
 **`90-desks/` — your craft corner.** The specialist work you personally do — writing, analysis, design, code — gets a desk of its own, where the work (or the links to where it happens) stays connected to everything else.
 

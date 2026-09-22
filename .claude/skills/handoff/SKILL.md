@@ -17,7 +17,7 @@ Save three things in `HANDOFF.md`, under the current project or work context (a 
 - **Open items** — unfinished work, blockers, or decisions still needed.
 - **Next step** — the concrete action to start with when they return.
 
-Add the last-updated date. Each handoff updates that context's section in the same file, carrying forward unresolved open items so they don't disappear. If something is unknown, say so rather than inventing a status.
+Add the last-updated date. A handoff is where the owner paused, not a register of commitments: a deadline or promise stays in the project's working document, even if it is mentioned here. Each handoff updates that context's section in the same file, carrying forward unresolved open items so they don't disappear. If something is unknown, say so rather than inventing a status.
 
 ## Resuming work
 
