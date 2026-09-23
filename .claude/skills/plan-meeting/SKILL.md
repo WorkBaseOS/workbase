@@ -5,7 +5,7 @@ description: Build the agenda for a meeting the owner runs - the internal team m
 
 # Plan a meeting
 
-Build the agenda for a meeting the owner runs, from the last meeting and the owner's notes, and save it as one document. The default is the internal team meeting. A client or external meeting uses the same shape with the parts that do not fit left out. The people who get it know the work: the agenda is a one-page plan for the hour, not a briefing. One line per point, no explanations — the minutes and the documents hold the detail.
+Build the agenda for a meeting the owner runs, from the last meeting and the owner's notes, and save it as one document. The default is the internal team meeting. A client or external meeting uses the same shape with the parts that do not fit left out. The people who get it know the work: the agenda names the topics, the owners, and the times — never what a thing is or why. Under 250 words for an hour's meeting; the minutes and the documents hold the rest.
 
 ## Ask for the inputs, once
 
@@ -17,16 +17,16 @@ From those documents or the request: the meeting's purpose (discuss, decide, or 
 
 ## Write the agenda — the TOPAD shape
 
-One document, in plain language, for the owner's own use. Under the title, one line naming what it was built from. Then:
+One document, in plain language, for the owner's own use:
 
 - **Title.** The meeting and its date.
-- **Objective.** One sentence: what this meeting will achieve, including what must be decided.
-- **Points to cover.** Each with its time and its owner, the times summing to the duration, in this order: good news, one line; follow-up on last time's actions — what the notes say is done in one line for all of it, then only the open ones, one short line each, an action with no news as a question to its owner — an open action that belongs to a point further down is handled there, not here; the main part, shaped by the purpose — discuss (the topic, the options, the takeaways), decide (the decisions to make, the facts on the table, the choice), weekly team meeting (the week's priorities, status, the two most pressing open issues) — or, when none of these fits, the owner's own points in their order; next steps, and who needs to hear about them; summary. A point is one line with what has to be settled; a sub-point only where the point cannot be understood without it. Leave out a part with nothing in it. Start from the last agenda's split of the time, adjusted to what is on the table; without one, give the point that needs agreement the most time and keep the opening and the summary short.
-- **Actions required before.** What participants prepare or bring, naming the real documents, one line per person.
-- **Desired outcomes.** What success looks like when the meeting ends, one line each, a few at most.
+- **Objective.** One short sentence: what this meeting must settle.
+- **Points to cover.** One line each: the topic — the time — the owner. The times sum to the duration. In this order: good news; follow-up on last time's actions — only the open ones, each a few words with its owner and date, an action with no news as a question to its owner, an open action that belongs to a point further down handled there; the main part, shaped by the purpose — discuss, decide, or weekly team meeting (the week's priorities, status, the two most pressing open issues) — or, when none of these fits, the owner's own points in their order; next steps, and who needs to hear about them; summary. No sub-points beyond the follow-up list. Leave out a part with nothing in it. Start from the last agenda's split of the time, adjusted to what is on the table; without one, give the point that needs agreement the most time and keep the opening and the summary short.
+- **Actions required before.** One line per person: what they bring.
+- **Desired outcomes.** A few words each, a few at most.
 - **Roles.** Host and scribe, when the last agenda had them or the owner asks.
 
-Every point traces to the minutes, the agenda, the notes, the files of the project or operation the meeting belongs to, or the owner. Never invent an action, an owner, or a date; a point without an owner is written as such. Where the notes differ from what the minutes record as agreed, say so on the agenda and give it a point; never rewrite the minutes. Nothing from the tray goes into the agenda unless the owner points at it: the owner handles the tray first. A client meeting opens with the purpose of the call instead of good news and has no weekly part.
+Every point traces to the minutes, the agenda, the notes, the files of the project or operation the meeting belongs to, or the owner. Never invent an action, an owner, or a date; a point without an owner is written as such. Where the notes differ from what the minutes record as agreed, make it a point in a few words; never rewrite the minutes. Nothing from the tray goes into the agenda unless the owner points at it: the owner handles the tray first. A client meeting opens with the purpose of the call instead of good news and has no weekly part.
 
 ## Save and hand over
 

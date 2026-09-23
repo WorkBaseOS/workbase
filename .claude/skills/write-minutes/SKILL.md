@@ -5,7 +5,7 @@ description: Write the minutes of a meeting from its transcript, or from the own
 
 # Write minutes
 
-Turn a meeting's transcript into minutes people can act on, and save them as one document. Everyone was there: the minutes are an overview to act from, not a retelling. Actions first, about one page, one line per entry, no explanations beyond a decision's reason — the transcript holds the detail.
+Turn a meeting's transcript into minutes people can act on, and save them as one document. Everyone was there. The minutes catch the topics, the owners, and the dates — never what a thing is or why. Under 250 words for an hour's meeting; the transcript holds the rest.
 
 ## Ask for the inputs, once
 
@@ -17,13 +17,13 @@ From the transcript or the agenda: which meeting, its date, and who was present.
 
 ## Write the minutes — the ADOPT shape
 
-One document, in plain language. A header line first: the meeting and its date, who was present, and the transcript it was written from. Then:
+One document, in plain language. First line: the meeting, its date, who was present. Then:
 
-- **Actions.** Who does what, by when. Grouped by person, one short line each: the thing and the date, nothing more. A date only as said in the meeting — a weekday may carry its date in brackets; otherwise "no date set" or the trigger that was named. An action without a spoken owner is written without one. A promise made off the agenda, with an owner, is an action, not a tangent.
-- **Decisions.** What was decided, one line each; the reason in a few words only where it was given and matters later.
-- **Open points.** What was raised and not settled, one line each, with what has to happen before it can be.
-- **People to inform.** Who outside the room needs to know, and who tells them.
-- **Topics discussed.** Written last: one sentence per topic, and only where an entry above cannot be understood without it. Reported speech, no remarks attributed to anyone. A topic whose entries speak for themselves gets nothing.
+- **Actions.** Grouped by person, one line each: the thing in a few words — the date. A date only as said in the meeting — a weekday may carry its date in brackets; otherwise "no date set" or the trigger that was named. An action without a spoken owner is written without one. A promise made off the agenda, with an owner, is an action, not a tangent.
+- **Decisions.** A few words each: what was decided. No reasons.
+- **Open points.** A few words each: what is not settled — who resolves it.
+- **People to inform.** Who outside the room — by whom.
+- **Topics discussed.** The topics by name, one line each, nothing more.
 
 Every line traces to the transcript. Where the transcript is unclear, or something was said twice differently, take the last thing said and name it in the hand-over as something to check. Never invent an owner, a date, or a decision that was not spoken. Anything sensitive said aloud — about a person, a client's confidence, a plan not ready to share — stays out of the minutes and is named to the owner in chat instead; an instruction that came with it stays, its reason goes. Tangents are gone.
 
