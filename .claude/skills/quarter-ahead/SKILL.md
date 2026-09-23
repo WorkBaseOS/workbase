@@ -15,14 +15,14 @@ Read `00-brain/this-quarter.md` if it exists: that is last quarter's direction. 
 
 Ask one, wait, write the answer as said, keep the owner's hedges, then the next. Where the owner cannot answer, note it and move on; nothing blocks. Where you can offer candidates from the files, label them as suggestions.
 
-1. **Last quarter's commitments.** Read each one back from the previous document. For each: done, not done, or changed, and what actually happened. Done or not; no partial credit. *(Dropped the first time.)*
+1. **Last quarter's commitments.** Read each priority back from the previous document, one at a time, in its own words. For each: done, not done, or changed, and what actually happened. Done or not; no partial credit, but what was done of it is recorded as a fact. Then the stop list: did it hold. Then each predicted risk: did it happen. *(Dropped the first time.)*
 2. **The gap.** Where something is not done, what actually got in the way? *(Dropped the first time.)*
 3. **Result versus activity.** Which of the last three months' efforts produced a result, and which only produced activity? Name the projects and operations that were running; the owner judges.
 4. **The avoided problem.** What is the problem you already know about and keep not dealing with?
-5. **The one thing.** If you could fix only one thing in the next ninety days, which one would make the others easier or unnecessary?
+5. **The one thing.** If you could fix only one thing in the next ninety days, which one would make the others easier or unnecessary? When the answer is the problem just named, say so and move on.
 6. **The quarter, looking back.** Three months from today, looking back: what has to have happened, for you personally and in the business, for you to be happy with this quarter?
-7. **At most three priorities.** Turn that into at most three. For each: who owns it, the date, and what will be true when it is done. Draft them from the answers so far; the owner approves the wording.
-8. **What stops.** What are you stopping this quarter to make room, and what will you say no to when it shows up? Offer the open commitments by name, from the summaries, as candidates.
+7. **At most three priorities.** Turn that into at most three. For each: who owns it, the date, and what will be true when it is done. Draft them from the answers so far; the owner approves the wording. A commitment from last quarter that is not done is either re-chosen here with a new date or dropped out loud; nothing carries over silently.
+8. **What stops.** What are you stopping this quarter to make room, and what will you say no to when it shows up? Offer the open commitments by name, from the previous document and the summaries, as candidates.
 9. **Pre-mortem.** It is the end of the quarter and this did not happen: what went wrong? And when that happens, what will you do? Record each if-then as said.
 10. **The first action.** What is the first action in the next seven days on the priority you are most likely to let slide, and when does it happen?
 
@@ -31,7 +31,7 @@ Ask one, wait, write the answer as said, keep the owner's hedges, then the next.
 Read the page back in the conversation with a proposed date for the next review, take the owner's changes, then write it once as `00-brain/this-quarter.md`. If a previous one exists, move it first to `99-archive/quarters/<year>-Q<n>.md` (create the folder if needed). Sections, in the owner's words:
 
 - **Quarter** and the date written.
-- **Last quarter's verdict** — each commitment: done, not done, or changed, one line each. *(Omitted the first time.)*
+- **Last quarter's verdict** — each commitment: done, not done, or changed, with what was done of it, one line each; whether the stop list held; which predicted risk happened. *(Omitted the first time.)*
 - **The aim** — the answer to question 6, one paragraph.
 - **Priorities** — at most three: what, who owns it, by when, and "done means".
 - **Stop list** — what ends, and what gets a no.
@@ -43,4 +43,4 @@ Nothing else in the workspace changes.
 
 ## Close
 
-A few lines: the document is saved and where; the first action and its date, with the question whether it is in the calendar; any commitment that belongs in a project's or operation's own documents, named for the owner to place; and anything the owner could not answer, left as theirs. No task list, no coaching.
+A few lines: the document is saved and where; the first action and its date, with the question whether it is in the calendar; any commitment that belongs in a project's or operation's own documents, named for the owner to place; anything the owner could not answer, left as theirs; and, when the summaries the interview read are visibly behind the quarter, one line saying so. No task list, no coaching.
