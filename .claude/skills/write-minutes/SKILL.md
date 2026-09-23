@@ -19,7 +19,7 @@ From the transcript or the agenda: which meeting, its date, and who was present.
 
 One document, in plain language. First line: the meeting, its date, who was present. Then:
 
-- **Actions.** Grouped by person, one line each: the thing in a few words — the date. A date only as said in the meeting — a weekday may carry its date in brackets; otherwise "no date set" or the trigger that was named. An action without a spoken owner is written without one. A promise made off the agenda, with an owner, is an action, not a tangent.
+- **Actions.** A table with three columns — Who, What, When — one row per action, rows grouped by person. What: the thing in a few words. When: a date only as said in the meeting — a weekday may carry its date in brackets; otherwise "no date set" or the trigger that was named. An action without a spoken owner gets an empty Who. A promise made off the agenda, with an owner, is an action, not a tangent.
 - **Decisions.** A few words each: what was decided. No reasons.
 - **Open points.** A few words each: what is not settled — who resolves it.
 - **People to inform.** Who outside the room — by whom.
