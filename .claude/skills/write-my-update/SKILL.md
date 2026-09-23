@@ -15,7 +15,7 @@ Turn the work as it stands into an update someone will read, in the owner's voic
 
 ## Read
 
-The container's working documents (the plan, the notes, the outline — where decisions, deadlines, and commitments live), what came in under `received/` during the period, and its section in `HANDOFF.md`. `00-brain/voice.md` for the register (external for outward, internal otherwise), `00-brain/house-rules.md` for language and length. If the tray holds items about this work, say so in the header: the draft may be behind them.
+The container's working documents (the plan, the notes, the outline — where decisions, deadlines, and commitments live), what came in during the period, and its section in `HANDOFF.md`. `00-brain/voice.md` for the register (external for outward, internal otherwise), `00-brain/house-rules.md` for language and length. If the tray holds items about this work, say so in the header: the draft may be behind them.
 
 ## Draft — five blocks, the owner's register
 
