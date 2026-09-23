@@ -5,7 +5,7 @@ description: Write the minutes of a meeting from its transcript, or from the own
 
 # Write minutes
 
-Turn a meeting's transcript into minutes people can act on, and save them as one document. Everyone was there: the minutes are an overview to act from, not a retelling. Actions first, one page at most, one line per entry, no explanations — the transcript holds the detail.
+Turn a meeting's transcript into minutes people can act on, and save them as one document. Everyone was there: the minutes are an overview to act from, not a retelling. Actions first, about one page, one line per entry, no explanations beyond a decision's reason — the transcript holds the detail.
 
 ## Ask for the inputs, once
 
