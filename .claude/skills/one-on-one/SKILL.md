@@ -1,43 +1,32 @@
 ---
 name: one-on-one
-description: Prepare and record the owner's one-on-ones with the people they lead - one living file per person under 02-operations/one-on-ones/ with one always-current section on top and the history below; a six-part prep page before the conversation, a six-line record after it. Use when the user says "prep my 1:1 with <name>", "prepare my one-on-one", "record my 1:1 with <name>", "what did I promise <name>", or "one-on-one with <name>". Two moments, one file; nothing is shared from it without the owner.
+description: Prepare the owner for a one-on-one with someone they lead - reads the shared 1:1 document the owner points at and comes back with how to lead the meeting: the order, the questions, the one thing to settle. Use when the user says "prep my 1:1 with <name>", "prepare my one-on-one", "how should I run my 1:1 with <name>", or "questions for my 1:1". Chat only; writes nothing.
+
 ---
 
 # One-on-one
 
-A one-on-one is the team member's meeting. The owner walks in prepared and walks out with a record, and the file for that person is always current. Two moments: **prep** before, **record** after. Between meetings the owner adds points by just saying so ("add to <name>'s 1:1: …"), which needs no skill.
+A one-on-one is the team member's meeting; the owner's job is to lead it well. The shared document between the two of them — a running document, theirs and the owner's items on top, notes and actions below — is the record. This skill reads it and prepares the owner. It writes nothing anywhere.
 
-## The file
+## Ask for the inputs, once
 
-One file per person: `02-operations/one-on-ones/<first-name>.md`, created on first use. Two things in it, top to bottom:
+Ask the owner to point you at the shared 1:1 document — pasted, dragged in, or open through a connector — and, if they want, at anything else: notes, an email, the last team meeting's minutes. Use what they give; nothing is required beyond the document. If the workspace's own files mention the person this week, say so in one line and offer to bring it in; do not bring it in unasked.
 
-- **Next 1:1** — one section, always present and always current. Between meetings it has three parts, all always present even when empty: **Open**, both sides, each with who and by when, plus any development thread by name; **Points to raise**, added as they come up; **Remember**, the thing to remember from last time. Just before the meeting the prep rewrites it into the page below; the record turns it back.
-- **Dated entries**, newest first — one per past conversation, a few lines each.
+## Read the document for four things
 
-The stable facts about the person — role, responsibilities — live in `00-brain/team.md`, not here. What is in this file is the owner's own preparation and memory of conversations with a person: the constitution's care with sensitive information applies to every line of it, and nothing from it goes into anything shared without the owner's say.
+What the two of them agreed last time and what is still open, on each side, with anything past its date named plainly. What the team member has put on the agenda. What the owner has put on it. Any development thread that runs through the history.
 
-## Prep — "prep my 1:1 with <name>"
+## Come back with how to lead the meeting — one screen, in chat
 
-Read the person's file; if there is none, say so and ask what the owner wants to raise and what the owner themselves owes the person. Read whatever notes the owner points at; nothing else is required. If the tray holds an unhandled item that names the person, say so in one line; its contents stay out of the page. Then rewrite the **Next 1:1** section into the page for this conversation — dated from the last entry's next date and marked unconfirmed when it is only "in two weeks" — in six parts, leaving out any part with nothing in it:
+1. **Open.** One question to start with: "what would make this useful for you today?" or one that fits the document better.
+2. **Their items first,** in the order they wrote them, each with a question that opens it rather than closes it.
+3. **Follow-through.** The open items from last time as questions to ask, both sides, the owner's own included: did it land, where is it now. Never marked done or missed on the assistant's word.
+4. **The owner's items,** with a suggested order and, for anything that is feedback, a reminder to say what was observed in the owner's own words — the assistant does not write feedback for the owner.
+5. **Development,** when the document shows a thread: three or four questions in the GROW shape — goal, reality, options, will — questions only; the owner asks, never advises.
+6. **Close.** "What do you need from me?", "what should I do differently as your manager?", and the one thing this meeting must settle, proposed from the document, for the owner to confirm or change.
 
-1. **Check-in.** One or two opening questions, plain: "what would make this useful today?", "what is getting in your way?".
-2. **Their topics.** What the person said they want to raise, if known, and room for what they bring. Theirs come before the owner's.
-3. **Open items.** Everything currently open on both sides — from the section as it stood, or the live commitments the owner names on a first prep — as questions to ask: did it land, where is it now. A promise whose date has passed with nothing recorded is asked about, never marked. Then, in one line, the thing to remember from last time.
-4. **Your points.** The points added since last time, in a sensible order.
-5. **Feedback.** Any feedback the owner owes, in the owner's own words — what they observed, and for corrective feedback what would be better; never add what it meant on the owner's behalf — and the question back: "what should I do differently as your manager?".
-6. **Development.** At most one thread, when there is one: a GROW block — a goal question, a reality question, two or three options questions, a will question. Questions only, in the options part especially; the owner asks, never advises.
+Every fact traces to the document or to what the owner said; nothing invented, no owner's promise the owner did not make. Then one line: anything the document could not tell you, left as the owner's.
 
-The page fits on one screen. Then two lines in chat: it is ready, and anything the owner could not be prepared for because the file does not know it.
+## After the meeting
 
-## Record — "record my 1:1 with <name>"
-
-The owner says what happened, in their words, or points at their notes. Then, in the file:
-
-- Write a dated entry with six lines: what was discussed; what was agreed, when it is neither side's dated promise; what they promised, by when; what the owner promised, by when; one thing to remember; the next date, if set. Only what the owner said; nothing invented, no owner's promise the owner did not make.
-- Rewrite **Next 1:1** to its between-meetings shape: what is now open on both sides, the development thread by name, the points not covered, and the thing to remember. The questions go; they belonged to the conversation that has happened.
-
-Then one line in chat: recorded, and what is now open on each side. If the owner mentions something about the person that is for their eyes only, it goes in as said; the assistant does not soften it and does not repeat it anywhere else.
-
-## Between meetings
-
-"Add to <name>'s 1:1: …" adds a point to Next 1:1. "What did I promise <name>?" reads it. Neither needs this skill's ceremony; they are the file being used.
+Nothing here. The notes and actions go into the shared document, by the owner. If the owner tells you what happened and asks, draft the notes block for them to paste, in their words.
