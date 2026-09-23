@@ -29,4 +29,4 @@ Every line traces to the transcript. Where the transcript is unclear, or somethi
 
 ## Save and hand over
 
-Save the document in the folder of the project or operation the meeting belongs to, next to the agenda when there is one, as `<meeting date>-<meeting>-minutes.md`; if the folder is unclear, ask. Then a few lines in chat: where the minutes are, what to check, what was left out, and the offer to draft the follow-up message to the people who were in the meeting, with their actions. That draft stays in chat; the owner sends it.
+Save the document in the folder of the project or operation the meeting belongs to, next to the agenda when there is one, as `YYYY-MM-DD-<meeting>-minutes.md` with the meeting's date; if the folder is unclear, ask. Then a few lines in chat: where the minutes are, what to check, what was left out, and the offer to draft the follow-up message to the people who were in the meeting, with their actions. That draft stays in chat; the owner sends it.
