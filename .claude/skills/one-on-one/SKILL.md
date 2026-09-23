@@ -1,7 +1,6 @@
 ---
 name: one-on-one
 description: Prepare the owner for a one-on-one with someone they lead - reads the shared 1:1 document the owner points at and comes back with how to lead the meeting: the order, the questions, the one thing to settle. Use when the user says "prep my 1:1 with <name>", "prepare my one-on-one", "how should I run my 1:1 with <name>", or "questions for my 1:1". Chat only; writes nothing.
-
 ---
 
 # One-on-one
