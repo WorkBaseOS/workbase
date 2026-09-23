@@ -24,7 +24,7 @@ One document, in plain language, for the owner's own use:
 - **Points to cover.** Each with its time and its owner, the times summing to the duration, in this order: good news; follow-up on last time's actions, each lifted by name from the minutes with who owned it and where it stands according to the notes — an action with no news is written as a question to its owner; the main part, shaped by the purpose — discuss (the topic, the options, the takeaways), decide (the decisions to make, the facts on the table, the choice), weekly team meeting (the week's priorities, status, the two most pressing open issues) — or, when none of these fits, the owner's own points in their order; next steps, and who needs to hear about them; summary. Leave out a part with nothing in it. Start from the last agenda's split of the time; without one, give the point that needs agreement the most time and keep the opening and the summary short.
 - **Actions required before.** What participants prepare or bring, naming the real documents.
 - **Desired outcomes.** What success looks like when the meeting ends.
-- **Roles.** Host and scribe, as the last minutes show or when the owner asks.
+- **Roles.** Host and scribe, when the last agenda had them or the owner asks.
 
 Every point traces to the minutes, the agenda, the notes, the files of the project or operation the meeting belongs to, or the owner. Never invent an action, an owner, or a date; a point without an owner is written as such. Nothing from the tray goes into the agenda: the owner handles the tray first. A client meeting opens with the purpose of the call instead of good news and has no weekly part.
 
