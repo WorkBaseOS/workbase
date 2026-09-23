@@ -5,7 +5,7 @@ description: Write the minutes of a meeting from its transcript, or from the own
 
 # Write minutes
 
-Turn a meeting's transcript into minutes people can act on, and save them as one document. Everyone was there. The minutes catch the topics, the owners, and the dates — never what a thing is or why. Under 250 words for an hour's meeting, cut from the words, never from an action, a name, or a date; the transcript holds the rest.
+Turn a meeting's transcript into minutes people can act on, and save them as one document. Everyone was there. The minutes catch the topics, the owners, and the dates — never what a thing is or why. Every action gets its row; everything else together stays under 150 words for an hour's meeting — cut from the words, never from an action, a name, or a date. The transcript holds the rest.
 
 ## Ask for the inputs, once
 
@@ -19,7 +19,7 @@ From the transcript or the agenda: which meeting, its date, and who was present.
 
 One document, in plain language. First line: the meeting, its date, who was present. Then:
 
-- **Actions.** A table with three columns — Who, What, When — one row per action, rows grouped by person. What: the thing in a few words. When: a date only as said in the meeting — a weekday may carry its date in brackets; otherwise "no date set" or the trigger that was named. An action without a spoken owner gets an empty Who. A promise made off the agenda, with an owner, is an action, not a tangent.
+- **Actions.** A table with three columns — Who, What, When — one row per action, rows grouped by person. What: the thing in a few words. When: a date only as said in the meeting — a weekday may carry its date in brackets; otherwise the trigger or the deferral as it was said, or "no date set". An action without a spoken owner gets an empty Who. A promise made off the agenda, with an owner, is an action, not a tangent.
 - **Decisions.** A few words each: what was decided. No reasons.
 - **Open points.** A few words each: what is not settled — who resolves it.
 - **People to inform.** Who outside the room — by whom.
