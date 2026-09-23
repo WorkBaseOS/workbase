@@ -5,7 +5,7 @@ description: Write the minutes of a meeting from its transcript, or from the own
 
 # Write minutes
 
-Turn a meeting's transcript into minutes people can act on, and save them as one document. Everyone was there. The minutes catch the topics, the owners, and the dates — never what a thing is or why. Under 250 words for an hour's meeting; the transcript holds the rest.
+Turn a meeting's transcript into minutes people can act on, and save them as one document. Everyone was there. The minutes catch the topics, the owners, and the dates — never what a thing is or why. Under 250 words for an hour's meeting, cut from the words, never from an action, a name, or a date; the transcript holds the rest.
 
 ## Ask for the inputs, once
 
