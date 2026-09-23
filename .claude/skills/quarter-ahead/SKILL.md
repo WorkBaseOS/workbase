@@ -9,7 +9,7 @@ Once a quarter, on the owner's request, never on a schedule. The owner does the 
 
 ## Before the first question
 
-Read `00-brain/this-quarter.md` if it exists: that is last quarter's direction. Read `00-brain/priorities.md`, `00-brain/business-profile.md`, and the folder names under `02-operations/` and `03-projects/` for what is in motion. Say in one line what you are working from. **The first time,** there is no previous quarter: say so, drop the two look-back questions, and start from the last three months as the owner remembers them. Do not search the workspace for problems to raise; the owner names them.
+Read `00-brain/this-quarter.md` if it exists: that is last quarter's direction. Read `00-brain/priorities.md`, `00-brain/business-profile.md`, and the folder names and summaries under `02-operations/`, `03-projects/`, and `90-desks/` for what is in motion; the tray is not read. Say in one line what you are working from. You may quote the brain and those summaries where a fact sharpens a question; never raise a problem the owner has not named. **The first time,** there is no previous quarter: say so, drop the two look-back questions, and start from the last three months as the owner remembers them.
 
 ## The interview — one question at a time
 
@@ -20,15 +20,15 @@ Ask one, wait, write the answer as said, keep the owner's hedges, then the next.
 3. **Result versus activity.** Which of the last three months' efforts produced a result, and which only produced activity? Name the projects and operations that were running; the owner judges.
 4. **The avoided problem.** What is the problem you already know about and keep not dealing with?
 5. **The one thing.** If you could fix only one thing in the next ninety days, which one would make the others easier or unnecessary?
-6. **The quarter, looking back.** Three months from today, looking back: what has to have happened, in the business and for you personally, for you to be happy with this quarter?
+6. **The quarter, looking back.** Three months from today, looking back: what has to have happened, for you personally and in the business, for you to be happy with this quarter?
 7. **At most three priorities.** Turn that into at most three. For each: who owns it, the date, and what will be true when it is done. Draft them from the answers so far; the owner approves the wording.
-8. **What stops.** What are you stopping this quarter to make room, and what will you say no to when it shows up? Offer the open work as candidates.
+8. **What stops.** What are you stopping this quarter to make room, and what will you say no to when it shows up? Offer the open commitments by name, from the summaries, as candidates.
 9. **Pre-mortem.** It is the end of the quarter and this did not happen: what went wrong? And when that happens, what will you do? Record each if-then as said.
 10. **The first action.** What is the first action in the next seven days on the priority you are most likely to let slide, and when does it happen?
 
 ## The direction document — one page
 
-Confirm it once with the owner, then save it as `00-brain/this-quarter.md`. If a previous one exists, move it first to `99-archive/quarters/<year>-Q<n>.md` (create the folder if needed). Sections, in the owner's words:
+Read the page back in the conversation with a proposed date for the next review, take the owner's changes, then write it once as `00-brain/this-quarter.md`. If a previous one exists, move it first to `99-archive/quarters/<year>-Q<n>.md` (create the folder if needed). Sections, in the owner's words:
 
 - **Quarter** and the date written.
 - **Last quarter's verdict** — each commitment: done, not done, or changed, one line each. *(Omitted the first time.)*
@@ -37,10 +37,10 @@ Confirm it once with the owner, then save it as `00-brain/this-quarter.md`. If a
 - **Stop list** — what ends, and what gets a no.
 - **Risks and if-thens** — each predicted failure and the response, as said.
 - **First actions** — the coming week, dated.
-- **Next review** — the date of the next quarter's interview.
+- **Next review** — the date of the next quarter's interview, proposed three months out, confirmed by the owner.
 
-Nothing else in the workspace changes. A commitment that belongs in a project's or operation's own documents is offered there, not moved on the assistant's own initiative.
+Nothing else in the workspace changes.
 
 ## Close
 
-Two or three lines: the document is saved and where; the first action and its date, with the question whether it is in the calendar; and anything the owner could not answer, left as theirs. No task list, no coaching.
+A few lines: the document is saved and where; the first action and its date, with the question whether it is in the calendar; any commitment that belongs in a project's or operation's own documents, named for the owner to place; and anything the owner could not answer, left as theirs. No task list, no coaching.
