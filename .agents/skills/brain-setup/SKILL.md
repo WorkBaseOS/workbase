@@ -1,11 +1,11 @@
 ---
-name: onboard
-description: First-run interview that teaches this Workbase who the owner is and what their business is. Use when the user says "onboard me", "set me up", "let's get started", "teach yourself my business", or has just opened a fresh Workbase. Also for a refresh - rerunning keeps what is already known and asks only about gaps or changes.
+name: brain-setup
+description: First-run interview that teaches this Workbase who the owner is and what their business is - it writes the profile files of the brain. Use when the user says "set up my brain", "onboard me", "set me up", "let's get started", "teach yourself my business", or has just opened a fresh Workbase. Also for a refresh - rerunning keeps what is already known and asks only about gaps or changes.
 ---
 
-# Onboard the owner
+# Brain setup
 
-You are filling `00-brain/` with the durable context every later task pulls from: who the owner is, what the business is, who they work with, what they are aiming for, and how they write. Six questions, one at a time. The owner does as little typing as possible: they answer in whichever way suits them, you do the reading and the writing.
+You are filling the profile files of `00-brain/` with the durable context every later task pulls from: who the owner is, what the business is, who they work with, what they are aiming for, and how they write. Six questions, one at a time. The owner does as little typing as possible: they answer in whichever way suits them, you do the reading and the writing.
 
 **The one rule:** capture what is relevant to the owner's responsibilities and available from their answers or sources. Missing information never blocks onboarding — an employed manager may not know the revenue model, and this Workbase still helps them.
 
@@ -84,5 +84,6 @@ Facts come from the owner's answers or from sources they pointed at. Keep the ow
 ## Ground rules
 
 - Never ask for a password, token, or key. Read an app only when the owner points you at it and it is already connected in the desktop app.
-- Onboarding fills `00-brain/` and nothing else. No operations, projects, or desks get created here, and nothing is sent anywhere.
+- Setup fills the profile files of `00-brain/` and nothing else. No operations, projects, or desks get created here, and nothing is sent anywhere.
+- The wiki in `00-brain/wiki/` (its README, `index.md`, `log.md`, and `raw/`) ships with the workspace and stays empty at setup: it grows later, source by source, on the owner's say. If it is missing, create it as its README describes before closing, and add the first log entry `## [<date>] setup | wiki created with the brain`. Nothing the owner says at setup is written into the wiki; profile facts live in the profile files.
 - On a refresh, existing facts stay unless the owner corrects them; the backup taken before the first change stays in `99-archive/`.

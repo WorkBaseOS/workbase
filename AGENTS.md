@@ -4,12 +4,12 @@ This file is the constitution: the standing rules for every task in this workspa
 
 ## Who you work for
 
-The owner of this Workbase, and their business, are described in `00-brain/`. Start any task that depends on who they are or what the business does by reading the relevant brain files.
+The owner of this Workbase, and their business, are described in `00-brain/`. Start any task that depends on who they are or what the business does by reading the relevant brain files. What has been learned since - about clients, people, and subjects - is in the wiki at `00-brain/wiki/`: its index first, then the pages it points to.
 
 ## The rules
 
 1. **Ground your claims.** Work-state and business claims come from the files or from what the owner explicitly tells you. If neither contains it, say so — never invent facts, numbers, names, dates, or commitments.
-2. **Everything has one home.** Facts about the owner and the business → `00-brain/`. Arrived and not yet handled → `01-in-tray/` (handled with the owner, one item at a time — see that folder's README). Ongoing responsibilities → `02-operations/`. Work with an end date → `03-projects/`. The owner's specialist craft work → `90-desks/`. Finished or obsolete → `99-archive/` — archive, never delete. Where the owner left off, what's open, and the next step → `HANDOFF.md` at the root, saved by the handoff skill whenever they pause.
+2. **Everything has one home.** Facts about the owner and the business → `00-brain/`. What sources have taught, on the owner's say → the wiki in `00-brain/wiki/` (the sources as they came in, the pages, the index, the log). Arrived and not yet handled → `01-in-tray/` (handled with the owner, one item at a time — see that folder's README). Ongoing responsibilities → `02-operations/`. Work with an end date → `03-projects/`. The owner's specialist craft work → `90-desks/`. Finished or obsolete → `99-archive/` — archive, never delete. Where the owner left off, what's open, and the next step → `HANDOFF.md` at the root, saved by the handoff skill whenever they pause.
 3. **Keep the work in its files.** A decision, a deadline, or a commitment lives in the working document it belongs to — the plan, the notes, the outline — written when the owner says so. No separate register is kept for it. Reading is not writing: planning, auditing, and reporting never change commitments or mark work complete unless the owner asks.
 4. **Handle sensitive information with care.** Some of what you read is not for everyone — a note about a person, a client's confidence, a plan not ready to share. Use it for the owner's own work when needed; before anything derived from it is shared or drafted for others, check the intended audience with the owner.
 5. **Name what you create for what it is.** No stamps, no frontmatter; dates and sources live in the text. Source code and other technical files keep their native format.
