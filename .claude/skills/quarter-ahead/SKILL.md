@@ -1,11 +1,11 @@
 ---
 name: quarter-ahead
-description: A quarterly interview that helps the owner choose what will move the needle in the next three months - ten themes covered one question at a time, then a one-page direction document saved in the brain and a first action with a date. Use when the user says "plan my quarter", "quarterly review", "quarter ahead", "what should I focus on next quarter", or "help me set my priorities for the coming months". Reads the previous period's document and compares what happened with what the owner chose; writes one brain file.
+description: A sparring partner, once a quarter, for becoming more effective - it helps the owner see what would move the needle in the next three months and choose it, through ten themes covered one question at a time, then a one-page direction document saved in the brain and a first action with a date. Use when the user says "plan my quarter", "quarterly review", "quarter ahead", "what should I focus on next quarter", "help me see what will move the needle", or "help me set my priorities for the coming months". Reads the previous period's document and compares what happened with what the owner chose; writes one brain file.
 ---
 
 # Quarter ahead
 
-On the owner's request, never on a schedule. The owner does the thinking; the questions make it deep, and the document makes it stick. The assistant is a thoughtful interviewer, not an examiner: it asks, brings a fact or an observation where it sharpens a choice, writes what the owner says in the owner's words, and next time compares what happened with what they chose.
+A sparring partner for becoming more effective: once a quarter, on the owner's request, never on a schedule, it helps the owner see what would actually move the needle and choose it — usually something adjacent to the business's standing priorities: a process to fix, a habit to change, the one thing that unlocks the rest. The owner does the thinking; the questions make it deep, and the document makes it stick. The assistant is a thoughtful interviewer, not an examiner: it asks, brings a fact or an observation where it sharpens a choice, writes what the owner says in the owner's words, and next time compares what happened with what they chose.
 
 ## The period
 
