@@ -9,7 +9,7 @@ A deck is a script before it is a deck. This skill writes the script: what earns
 
 ## Ask once
 
-Who is in the room, what the occasion is, and how long the owner has; what the audience already has from the owner, if anything. Then the source: the documents the owner points at, or "from the brain", or what they tell you. Twenty minutes is about eight slides; a slide a minute and a half, fewer when the owner talks more than the slides show.
+Who is in the room, what the occasion is, how long the owner has, and what they want to have happened when it is over; what the audience already has from the owner, if anything. Then the source: the documents the owner points at, or "from the brain", or what they tell you. Twenty minutes is about eight slides including the title card; a slide a minute and a half, fewer when the owner talks more than the slides show. When the audience already holds a document from the owner, the deck builds on it and does not walk through it again.
 
 ## Read
 
@@ -37,9 +37,9 @@ subtitle or the one line that frames it
 ```
 
 - `#` is the slide title, a phrase not a label; the first card is the title card.
-- Ten to fifteen words on a card; a list item two to six words; a framework or a list keeps every item but strips each to a few words. The slide anchors the spoken word, it does not repeat it.
-- Lines starting with `>` are the owner's speaker notes, in the owner's register from the voice samples. They stay in the file; they are not slide text.
-- Every claim traces to the documents, the brain, or the owner. A fact the audience will expect that the workspace does not hold — a client's name, a result, a number — is written as a marked gap, `[gap: a client result they would recognise]`, never invented.
+- Ten to fifteen words on a card and at most four lines, except that a framework or a list keeps every item, each stripped to a few words. The slide anchors the spoken word, it does not repeat it.
+- Lines starting with `>` are the owner's speaker notes, in the owner's register from the voice samples. They are for the owner, not the tool: most tools would show them on the slide, so they are stripped before pasting. A gap may sit in a note as well as on a card.
+- Every claim traces to the documents, the brain, or the owner. A fact the audience will expect that the workspace does not hold — a client's name, a result, a number — is written as a marked gap, `[gap: a client result they would recognise]`, never invented. A deck for outsiders carries no client name, person, or number from the brain until the owner has said it may.
 - No em dashes unless the owner's samples use them; no filler.
 
 Then, in chat, two or three lines: where the script is, how many slides and for how long, and the gaps to fill before presenting. The owner edits the file; a second "generate slides" on the same source with a change rewrites it.
