@@ -32,7 +32,13 @@ What we know about <name> that stays true. Contact and role: [clients.md](../../
 - 2026-03-05 (email, the sponsor): sessions run in their own training room.
 ```
 
-Links are ordinary markdown links to the page's path, `[Name](../clients/name.md)`; Obsidian draws them as a graph. Page names are plain and predictable: the client's name, the person's name, the subject.
+Links are ordinary markdown links to the page's path, `[Name](../clients/name.md)`; Obsidian draws them as a graph. Page names are plain and predictable: the client's name, the person's name, the subject. Lines name their source in words; the source page itself is found through the index.
+
+**The source page**, in `sources/`, has the same name as its file in `raw/`. Its title says what the source is, its date, and from whom; a first line links the raw file; `## Key points` holds what the source says, dates and all; `## Pages it informed` links every page it fed. A source may say more than the pages keep: whatever is work-state stays on the source page only.
+
+**The analysis page**, in `analysis/`, is named for its subject. It opens with the question and the date it was asked, gives the answer, and links every page it drew on. The same question asked again later adds a dated entry to the same page.
+
+**The index** lists every page under its section: sources by date, the rest by name. Each line: the link, what the page is in a few words, and the day the page was last written.
 
 ## What goes where
 
@@ -43,7 +49,7 @@ Links are ordinary markdown links to the page's path, `[Name](../clients/name.md
 
 ## The three operations
 
-- **Ingest** - add a source: the source lands in `raw/`, its key points are discussed, pages are written or updated and linked, the index gets a line for every page touched, the log gets an entry.
+- **Ingest** - add a source: its key points are discussed first; on the owner's go the source lands in `raw/`, pages are written or updated and linked, the index gets a line for every page touched, the log gets an entry. A source the owner keeps out is written nowhere.
 - **Query** - ask: the index is read first, the pages it points to are opened, the answer cites them; an answer worth keeping is filed back as a page in `analysis/`, indexed and logged.
 - **Lint** - health check: contradictions, superseded claims, orphans, missing pages and links, index drift, sources never ingested, stale pages. Reported; fixed only as the owner picks.
 

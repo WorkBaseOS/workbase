@@ -5,17 +5,17 @@ description: Health check of the wiki in the brain - contradictions, claims newe
 
 # Brain lint
 
-Read `00-brain/wiki/README.md`, then `index.md`, every page, the contents of `raw/`, and `log.md`. Read the profile files in `00-brain/` alongside. Change nothing until the owner picks.
+Read `00-brain/wiki/README.md`, then `index.md`, every page, the contents of `raw/`, and `log.md`. Read the profile files in `00-brain/` alongside. Nothing else: the work folders and the tray are outside this check, and a document is read only when the owner points at it. Change nothing until the owner picks.
 
 ## The checks
 
 1. **Contradictions.** Two pages, or a page and a profile file, that state one fact differently. Quote both with their dates.
-2. **Superseded claims.** A page line that a newer source in `raw/`, or a newer document in operations or projects that names the same thing, says otherwise. Quote both.
-3. **Index drift and orphans.** Index lines with no page; pages with no index line; pages no other page links to.
+2. **Superseded claims.** A page line that a newer source in `raw/`, or a document the owner points at, says otherwise. Quote both.
+3. **Index drift and orphans.** Index lines with no page; pages with no index line; client, people, topic, and analysis pages no other page links to. Source pages are reached through the index and are not orphans.
 4. **Missing pages.** A client, person, or subject named on several pages with no page of its own.
 5. **Missing links.** Pages that mention each other without linking.
-6. **Sources never distilled.** Files in `raw/` with no source page.
-7. **Lines without their date or source.** A page line that does not say when it was learned and from what, usually one added by hand. Ask for both.
+6. **Sources never distilled.** Files in `raw/` (its README aside) with no source page.
+7. **Lines without their date or source.** A page line that does not say when it was learned and from what, usually one added by hand. Ask for both. When the owner names a source that is in `raw/`, check that it carries the fact; when it does not, the owner is the source, and the line says so: "<date> (the owner)".
 8. **Stale pages.** The pages untouched the longest, especially about things that move: a client mid-engagement, a person who changed role. For each, the question "still true?".
 9. **Gaps.** Questions the wiki cannot answer that a source the owner is likely to have, or a web search, could fill. Suggestions only.
 
@@ -23,6 +23,6 @@ Read `00-brain/wiki/README.md`, then `index.md`, every page, the contents of `ra
 
 One short report in the chat: the checks that came back clean in a single line, then the findings that matter, worst first, five at most, each with a one-line fix. The full report is saved as `99-archive/audits/<date>-brain-lint.md` (create the folder if needed). A young wiki with little in it gets a short report that says so.
 
-Then ask which fixes to apply, and apply only those. Mechanical fixes are yours to make on the owner's word: index lines, links, a page for something the existing pages already describe. A contradiction is the owner's to settle; a stale page is theirs to confirm; a gap is theirs to fill. Append `## [<date>] lint | <n> findings, <m> fixed` to `log.md`.
+Then ask which fixes to apply, and apply only those. When done, add a closing line to the saved report saying which findings were fixed and which stand. Mechanical fixes are yours to make on the owner's word: index lines, links, a page for something the existing pages already describe. A contradiction is the owner's to settle; a stale page is theirs to confirm; a gap is theirs to fill. Append `## [<date>] lint | <n> findings, <m> fixed` to `log.md`, counting the findings reported (gaps are suggestions and are not counted).
 
 Evidence, not presence: say what you read. No score.
