@@ -15,8 +15,9 @@ Read `00-brain/wiki/README.md`, then `index.md`, every page, the contents of `ra
 4. **Missing pages.** A client, person, or subject named on several pages with no page of its own.
 5. **Missing links.** Pages that mention each other without linking.
 6. **Sources never distilled.** Files in `raw/` with no source page.
-7. **Stale pages.** The pages untouched the longest, especially about things that move: a client mid-engagement, a person who changed role. For each, the question "still true?".
-8. **Gaps.** Questions the wiki cannot answer that a source the owner is likely to have, or a web search, could fill. Suggestions only.
+7. **Lines without their date or source.** A page line that does not say when it was learned and from what, usually one added by hand. Ask for both.
+8. **Stale pages.** The pages untouched the longest, especially about things that move: a client mid-engagement, a person who changed role. For each, the question "still true?".
+9. **Gaps.** Questions the wiki cannot answer that a source the owner is likely to have, or a web search, could fill. Suggestions only.
 
 ## The report
 

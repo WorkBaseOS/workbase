@@ -12,17 +12,17 @@ The wiki in `00-brain/wiki/` is where knowledge accumulates. Read its `README.md
 The owner points at the source:
 
 - A file already in `raw/`.
-- A document anywhere in the workspace, or a file dropped into the chat: copy it into `raw/` under a dated, descriptive name. The original stays where it is, untouched.
-- Text the owner pastes or dictates: save it into `raw/` as a dated note, as given.
-- A webpage: read it at its link and save the text into `raw/` with the link at the top. If it cannot be reached, ask for its contents.
+- A document anywhere in the workspace, or a file dropped into the chat. Read it where it is; the original stays untouched.
+- Text the owner pastes or dictates.
+- A webpage: read it at its link. If it cannot be reached, ask for its contents.
 
-`raw/` is immutable. Nothing in it is edited, rewritten, or deleted once saved; the one exception is adding a missing title or date at the top.
+Nothing is saved into `raw/` until the owner has said the source belongs in the wiki (step 2); a source they decide to keep out never enters it. Once saved, `raw/` is immutable. Nothing in it is edited, rewritten, or deleted once saved; the one exception is adding a missing title or date at the top.
 
 ## The steps
 
 1. **Read the source in full.** Then read `index.md` and open every page the source could touch, so you know what the wiki already says.
 2. **Discuss the takeaways before writing anything.** In the chat, briefly: the key points; the pages you would create or update, by name; any point that contradicts what a page already says, both versions quoted with their dates; anything sensitive you would leave out - a confidence, a note about a person's situation, something marked private. Ask what to emphasize and whether anything should stay out. One exchange, then write.
-3. **Write the source page** in `sources/`: what the source is (kind, date, from whom), its key points, and a link to every page it informed.
+3. **Save the source into `raw/`** under a dated, descriptive name, unless it is already there: a copy of the document, the pasted or dictated text as given, the webpage's text with its link at the top. Then **write the source page** in `sources/`: what the source is (kind, date, from whom), its key points, and a link to every page it informed.
 4. **Create or update the pages it touches**: a client or organization in `clients/`, a person in `people/`, a subject in `topics/`. One thing per page, in the shape the README shows. Add what the source teaches that stays true for months, one dated line per fact with the source named. Link every related page; a link to a page that does not exist yet is fine when the thing deserves one, and the report says so.
    - A fact a page already states differently is written the way the owner chose in step 2, never overwritten on your own judgment. Keep the old value in the same line when it matters: "since <date>: X, was Y".
    - Profile facts stay in the profile files. A source that changes one is raised in step 2 and, on the owner's word, changed there; pages link to the profile rather than copying it.
