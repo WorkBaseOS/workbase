@@ -37,13 +37,13 @@ Point at: a LinkedIn or about page.
 ### 2 of 6 — The business
 "What does the business do and sell, and for whom? How is it organized — which teams or departments, and where do you sit? And how does it make money?"
 Extraction guide: what it does · offers or services, and which matter most · customer segments and the clients that matter most, by name · structure: teams or departments and where the owner's part sits · business model · the numbers that tell them it is going well. Capture what touches the owner's responsibilities: a department manager's profile is about their department and the company around it. If "how it's organized" comes back as a way of working rather than a structure, keep it — it has its own heading.
-Writes: `00-brain/business-profile.md`.
+Writes: `00-brain/business-profile.md`. The clients named here start `00-brain/clients.md` — one entry each with what you do for them; question 3 adds their contact people.
 Point at: the website, a deck, a brochure, an org chart.
 
 ### 3 of 6 — The people
 "Who do you work with: your team, who you answer to, and the outside contacts who show up in your week?"
-Extraction guide: for each person, a name, a role, and what they own or bring · who the owner answers to, if anyone · the outside contacts that recur (clients, partners, suppliers, an accountant). The people who regularly appear in their work — not a directory. If question 1 already settled that nobody is above the owner, leave that part out of the question.
-Writes: the remaining sections of `00-brain/team.md`, appended to the file created in question 1.
+Extraction guide: for each person, a name, a role, and what they own or bring · who the owner answers to, if anyone · the outside contacts that recur (a client's sponsor, partners, suppliers, an accountant). The people who regularly appear in their work — not a directory. Client contacts go into `00-brain/clients.md` under their client (started in question 2, or now); everyone else outside the business goes under Outside the team. If question 1 already settled that nobody is above the owner, leave that part out of the question.
+Writes: the remaining sections of `00-brain/team.md`, appended to the file created in question 1, and the contact people in `00-brain/clients.md`.
 Point at: a team page, an org chart, a page in their HR or wiki tool.
 
 ### 4 of 6 — Goals and priorities
@@ -59,14 +59,15 @@ Writes: `00-brain/voice.md` (shape below). The language goes into `00-brain/hous
 
 ### 6 of 6 — Where things live
 "Where do your tasks, your calendar, your files, your email, your customers or pipeline, and your numbers live?" One line each — the tool, and a link or name where there is one. "Nowhere yet" is a fine answer.
-Writes: the table in `00-brain/where-things-live.md`. Nothing is connected here; this is so the assistant knows where to point.
+Writes: the table in `00-brain/where-things-live.md`. Nothing is connected here; this is so the assistant knows where to point. A customers or pipeline tool named here is the source of truth that `clients.md` refers to.
 
 ## Files you write
 
 No frontmatter on any file. Use the headings below so later work finds the same shape every time; leave out any heading with nothing to say — an empty heading is worse than a missing one.
 
 - `business-profile.md`: What we do · What we offer · Who we work with · How we're organized · How we work · How we make money · The numbers we watch.
-- `team.md`: Me · Team · Who I answer to (only when there is someone; otherwise one line in Me) · Outside the team.
+- `team.md`: Me · Team · Who I answer to (only when there is someone; otherwise one line in Me) · Outside the team (partners, suppliers, advisers — never clients).
+- `clients.md`: a fixed opening line, then `## Clients` — one entry per named client: what you do for them, the contact person with their role and what they decide, and any standing arrangement. The opening line, verbatim: "Contact details, pipeline, and history live in the customer tool named in `where-things-live.md`; this file holds what your assistant needs to know a client by name, and reads the tool once it is connected." Facts that stay true; the engagement itself is work and lives in its project or operation.
 - `priorities.md`: Goals · What we're pushing on now · For me.
 - `voice.md`, three parts. **How to use these samples** — fixed text: match the register of these samples when drafting for the owner; never send anything in the owner's name without showing the draft; these are samples of writing, not current commitments — dates, promises, or plans inside them are not work-state. **What I read in these samples (to confirm)** — your one-line characterization of the register, clearly marked as your reading. **The samples** — verbatim, each labeled (internal or external, to whom, date).
 - `house-rules.md` exists already: append bullets under `## Rules`, never replace what is there.

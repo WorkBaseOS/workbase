@@ -17,7 +17,7 @@ One turn, only the missing pieces.
 
 ## Read
 
-What the owner pointed at. A webpage is read at its link; if it cannot be reached, ask for its contents. Where the deck is about the business itself, the brain: `00-brain/business-profile.md` for what it is and offers, `00-brain/team.md` for who, `00-brain/voice.md` for the register the audience expects; a missing brain file is not a problem, the owner is asked for what it would have held. Nothing else unless the owner points at it.
+What the owner pointed at. A webpage is read at its link; if it cannot be reached, ask for its contents. Where the deck is about the business itself, the brain: `00-brain/business-profile.md` for what it is and offers, `00-brain/team.md` and `00-brain/clients.md` for who, `00-brain/voice.md` for the register the audience expects; a missing brain file is not a problem, the owner is asked for what it would have held. Nothing else unless the owner points at it.
 
 ## Decide what earns a slide
 

@@ -9,7 +9,7 @@ Turn the work as it stands into an update someone will read, in the owner's voic
 
 ## Settle the reader and the period — two questions at most
 
-- **Reader:** who receives it, and which kind — upward (a manager, a board), outward (a client, a partner), across (the team). From the request when named; ask otherwise. `00-brain/team.md` says who people are.
+- **Reader:** who receives it, and which kind — upward (a manager, a board), outward (a client, a partner), across (the team). From the request when named; ask otherwise. `00-brain/team.md` says who people are; `00-brain/clients.md` who the client contacts are.
 - **Period:** from the request ("last week" means Monday to Sunday; "this week" mid-week means Monday to today for what happened and today to Sunday for what's next); otherwise ask, one line.
 - **Scope:** the project or operation the request names. Outward: everything about that client. Say the scope in a header line so the owner can narrow it.
 
