@@ -14,7 +14,7 @@ Your Workbase is your *personal* workspace — and your second brain for the bus
 
 ## First steps
 
-1. Open this folder in the **Claude Code app** or the **Codex app** (open the app, choose this folder). Both read the same rulebook: `AGENTS.md` holds the rules (Codex reads it natively), and `CLAUDE.md` points Claude to that same file — that's why both files sit at the root. We build and teach with Claude Code.
+1. Open this folder in the **Claude Code app** or the **Codex app** (open the app, choose this folder). Both read the same rulebook: `AGENTS.md` holds the rules (Codex reads it natively), and `CLAUDE.md` points Claude to that same file — that's why both files sit at the root. The skills live twice for the same reason: `.claude/skills/` is where Claude Code looks and where you edit them; `.agents/skills/` is the identical copy Codex looks in, kept in step by `scripts/sync-codex-skills.sh` (run it after editing a skill). We build and teach with Claude Code.
 2. Say: **"Onboard me."** Your assistant interviews you briefly and fills `00-brain/` with your business — you answer questions and drag in documents; it does the typing.
 3. From then on: toss anything into `01-in-tray/` as your day happens. When you're ready, go through it with your assistant, one item at a time — say what you want kept, it records it and files the item. Everything in operations and projects is ongoing; finished work moves to the archive — so the folders themselves are your list of open work. Once a week, say **"audit my Workbase"** for a tidy check. Pausing or switching work? Say **"save a handoff"** and answer one question; when you return, say **"where did I leave off?"** and you get a short recap. That's the habit; everything else grows from it.
 
