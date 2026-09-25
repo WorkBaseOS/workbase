@@ -12,6 +12,6 @@ Setup ("set up my brain") fills this folder with you: `business-profile.md`, `te
 
 One special file lives in this folder: `house-rules.md` — your standing preferences, in your words. Your assistant always applies them.
 
-The wiki, `wiki/`, is the part of the brain that grows after setup: sources you feed it, pages about clients, people, and subjects, and answers worth keeping, each line dated with its source. Say "ingest this" to add a source, "what do we know about" to ask, "lint the brain" for a health check. Its README explains the structure.
+`wiki/` is the part of the brain that grows over time, for when you want it; its own README explains it, and it can stay empty for as long as you like.
 
 Once a quarter, "plan my quarter" interviews you about what will move the needle in the next three months and saves the result here as `this-quarter.md` — your direction for the quarter, which your assistant reads like everything else in this folder. The previous quarter's file moves to the archive.
