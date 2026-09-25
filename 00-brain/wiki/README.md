@@ -32,24 +32,26 @@ What we know about <name> that stays true. Contact and role: [clients.md](../../
 - 2026-03-05 (email, the sponsor): sessions run in their own training room.
 ```
 
+Client, people, and topic pages share this shape. Three cases have one fixed form each: a fact that replaced an earlier one, `- <date> (<source>): <fact> - was <old fact> per <old source>, <old date>; settled by <owner's name>, <date>.`, the old line removed; a fact a later source confirms, the confirmation added to its line, `Reconfirmed <date> (<source>).`; a fact the owner supplies without a document, `- <date> (<owner's name>): <fact>`.
+
 Links are ordinary markdown links to the page's path, `[Name](../clients/name.md)`; Obsidian draws them as a graph. Page names are plain and predictable: the client's name, the person's name, the subject. Lines name their source in words; the source page itself is found through the index.
 
 **The source page**, in `sources/`, has the same name as its file in `raw/`. Its title says what the source is, its date, and from whom; a first line links the raw file; `## Key points` holds what the source says, dates and all; `## Pages it informed` links every page it fed. A source may say more than the pages keep: whatever is work-state stays on the source page only.
 
-**The analysis page**, in `analysis/`, is named for its subject. It opens with the question and the date it was asked, gives the answer, and links every page it drew on. The same question asked again later adds a dated entry to the same page.
+**The analysis page**, in `analysis/`, is named for its subject. It opens with the question and the date it was asked, gives the answer, and links every page it drew on; each of those pages gets one line at its end linking back, so the analysis is reachable from the things it is about. The same question asked again later adds a dated entry to the same page.
 
 **The index** lists every page under its section: sources by date, the rest by name. Each line: the link, what the page is in a few words, and the day the page was last written.
 
 ## What goes where
 
-- What stays true for months goes on client, people, and topic pages. Deadlines, tasks, and statuses never do; they live with the work in operations and projects.
+- What stays true for months goes on client, people, and topic pages: what an engagement is (its purpose, its size, its venue), how a person works, what an organization wants. Deadlines, tasks, and statuses never do; they live with the work in operations and projects. What is still moving - a list being corrected, a date awaiting confirmation - stays on the source page until it settles.
 - The source page tells what the source was about, dates included, and links to every page it informed.
 - Profile facts stay in the profile files; a page links to them rather than repeating them. A source that changes a profile fact changes the profile file, on the owner's word.
 - A confidence, a note about someone's situation, anything the owner marked private: left out of the pages unless the owner says to keep it.
 
 ## The three operations
 
-- **Ingest** - add a source: its key points are discussed first; on the owner's go the source lands in `raw/`, pages are written or updated and linked, the index gets a line for every page touched, the log gets an entry. A source the owner keeps out is written nowhere.
+- **Ingest** - add a source: its key points are discussed first; on the owner's go the source lands in `raw/`, pages are written or updated and linked, the index gets a line for every page touched, the log gets an entry. A source the owner keeps out is written nowhere, by design - not even a note that it was declined - so it may be proposed again another day, and the owner declines it again. Ingesting is not handling: a source that came from the tray is still a tray item afterwards.
 - **Query** - ask: the index is read first, the pages it points to are opened, the answer cites them; an answer worth keeping is filed back as a page in `analysis/`, indexed and logged.
 - **Lint** - health check: contradictions, superseded claims, orphans, missing pages and links, index drift, sources never ingested, stale pages. Reported; fixed only as the owner picks.
 
