@@ -4,4 +4,10 @@ Time-bound work lives here: a launch, a hire, a migration, a campaign. One folde
 
 **What belongs here:** work that will be finished someday.
 **What never belongs here:** ongoing responsibilities — those are operations.
-**The one rule:** the folder holds the work itself — the plan, the notes, the drafts, and what came in. The deadline and every promise live in the plan or the notes, not in a separate register. Say **"set up a project for …"** and your assistant creates the folder, asking only what matters. Not sure what something is? A finish line → project. Never ends → operation. Your own craft → desk.
+**The one rule:** the folder holds the work itself — the plan, the notes, the drafts, and what came in. The deadline and every promise live in the plan or the notes, not in a separate register.
+
+**How a project starts:** from whatever came first — often a tray item that needed a home, filed into a new folder named for the work. When there is something to plan, the plan is one file, `plan.md`: what it is, who it is for, the dates, the promises, and what is next, under plain headings. No status file, no overview.
+
+**How a promise is written:** with its date or its trigger — "confirm the new date to the client — by Monday 28 September". When it is done, the same line says so: "— done 28 September". Nothing else marks status; "what's open" is every promise line without "done", read from the work.
+
+Not sure what something is? A finish line → project. Never ends → operation. Your own craft → desk.
