@@ -1,2 +1,7 @@
 .DS_Store
 .obsidian/
+
+# Keys to paid services live in a .env file, created only when a skill needs one. Never share it.
+.env
+.env.*
+!.env.sample
