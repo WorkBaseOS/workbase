@@ -11,7 +11,7 @@ You are filling the profile files of `00-brain/` with the durable context every 
 
 ## Before the first question
 
-1. Read `00-brain/` as it stands. If the brain files already hold content, this is a refresh, not a first run:
+1. Read `00-brain/` as it stands. If the profile files already exist, this is a refresh, not a first run — the shipped text of `house-rules.md` and `where-things-live.md` does not count:
    - Before touching anything, copy the brain files to `99-archive/onboarding-backup-<YYYY-MM-DD-HHMM>/`. Tell the owner in one line that a dated copy was kept in the archive folder.
    - Keep everything already known unless the owner corrects it. Existing files keep their shape: add what is new under the standard headings at the end of the file; never reorganize, reword, or reorder what is there.
    - A question fully answered already is skipped with a one-line confirmation. A question partly answered gets the confirmation line plus its gaps, asked together in one turn — that turn is its one follow-up.
@@ -67,7 +67,7 @@ No frontmatter on any file. Use the headings below so later work finds the same 
 
 - `business-profile.md`: What we do · What we offer · Who we work with · How we're organized · How we work · How we make money · The numbers we watch.
 - `team.md`: Me · Team · Who I answer to (only when there is someone; otherwise one line in Me) · Outside the team (partners, suppliers, advisers — never clients).
-- `clients.md`: a fixed opening line, then `## Clients` — one entry per named client: what you do for them, the contact person with their role and what they decide, and any standing arrangement. The opening line, verbatim: "Contact details, pipeline, and history live in the customer tool named in `where-things-live.md`; this file holds what your assistant needs to know a client by name, and reads the tool once it is connected." Facts that stay true; the engagement itself is work and lives in its project or operation.
+- `clients.md`: a fixed opening line, then `## Clients` — one entry per named client: what you do for them, the contact person with their role and what they decide, and any standing arrangement. The opening line, verbatim: "Contact details, pipeline, and history live in your customer tool, named in `where-things-live.md` once there is one; this file holds what your assistant needs to know a client by name, and reads the tool once it is connected." Facts that stay true; the engagement itself is work and lives in its project or operation.
 - `priorities.md`: Goals · What we're pushing on now · For me.
 - `voice.md`, three parts. **How to use these samples** — fixed text: match the register of these samples when drafting for the owner; never send anything in the owner's name without showing the draft; these are samples of writing, not current commitments — dates, promises, or plans inside them are not work-state. **What I read in these samples (to confirm)** — your one-line characterization of the register, clearly marked as your reading. **The samples** — verbatim, each labeled (internal or external, to whom, date).
 - `house-rules.md` exists already: append bullets under `## Rules`, never replace what is there.
