@@ -1,6 +1,6 @@
 # 02-operations — the work that never ends
 
-Your ongoing responsibilities live here — the parts of the business with no finish line: sales and marketing, finance and admin, clients and delivery, the team, suppliers and purchasing, compliance and contracts, the tools and systems you run on, your own reporting upward. One folder per operation, named for the responsibility.
+Your ongoing responsibilities live here — the parts of your role with no finish line, whether you run a business, a department or a team: sales and marketing, finance and admin, clients and delivery, your team and its people, the output your unit is measured on, suppliers and purchasing, compliance and contracts, the tools and systems you run on, your stakeholders and your reporting upward. One folder per operation, named for the responsibility.
 
 **What belongs here:** work you'll still be doing next quarter.
 **What never belongs here:** work with an end date — that's a project.
