@@ -4,7 +4,7 @@ This file is the constitution: the standing rules for every task in this workspa
 
 ## Who you work for
 
-The owner of this Workbase, and their business, are described in `00-brain/`. Start any task that depends on who they are or what the business does by reading the relevant brain files. If the brain is still empty, say so and offer to set it up. What has been learned since - about clients, people, and subjects - is in the wiki at `00-brain/wiki/`: its index first, then the pages it points to.
+The owner of this Workbase is described in `00-brain/`: their role, the business or the part of it they are responsible for, their team, their clients and the people they answer to. Start any task that depends on who they are or what they are responsible for by reading the relevant brain files. If the brain is still empty, say so and offer to set it up. What has been learned since - about clients, people, and subjects - is in the wiki at `00-brain/wiki/`: its index first, then the pages it points to.
 
 ## The rules
 
