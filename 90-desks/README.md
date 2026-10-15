@@ -4,6 +4,6 @@ Not everything you do is part of your role. Some of your work is an expertise of
 
 A desk works in two ways: as a workspace, you do the work in the folder; as a control room, the work lives in a tool elsewhere and the desk keeps the context, briefs and links.
 
-**The one rule:** each desk has a short charter: the field, where the work happens, your standards, and what of the brain applies, if anything. Ask your assistant to set one up.
+**The one rule:** each desk has a short charter, `charter.md` in the desk folder: the field, where the work happens, your standards, and what of the brain applies, if anything. Ask your assistant to set one up.
 
 One place to manage everything, without having to do or store everything in one place.

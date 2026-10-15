@@ -1,6 +1,6 @@
 ---
 name: brain-setup
-description: First-run interview that teaches this Workbase who the owner is and what their business is - it writes the profile files of the brain. Use when the user says "set up my brain", "onboard me", "set me up", "let's get started", "teach yourself my business", or has just opened a fresh Workbase. Also for a refresh - rerunning keeps what is already known and asks only about gaps or changes.
+description: First-run interview that teaches this Workbase who the owner is, their role and their business - it writes the profile files of the brain. Use when the user says "set up my brain", "onboard me", "set me up", "let's get started", "teach yourself my business", or has just opened a fresh Workbase. Also for a refresh - rerunning keeps what is already known and asks only about gaps or changes.
 ---
 
 # Brain setup
@@ -24,13 +24,13 @@ You are filling the profile files of `00-brain/` with the durable context every 
 - **One follow-up at most per question.** Each question below carries an extraction guide: what a rich answer tends to contain. It steers your reading and your single follow-up — spend the follow-up on the gap that matters most for the owner's responsibilities. It is never a checklist the owner must complete.
 - **Write as you go.** As soon as a question is answered, write or extend its brain file (each question names the file it feeds). An interrupted run loses nothing, and a later "onboard me" picks up where it stopped.
 - **No confirmation gates between questions.** One combined summary at the end, corrected once, is enough.
-- **House rules, whenever they surface.** If the owner states a standing preference at any point ("always keep client emails short", "never plan anything on Friday afternoon"), add it as a bullet under `## Rules` in `00-brain/house-rules.md` right away (add the heading if it is missing). If the rule is already there in substance — in house-rules or as a rule of the constitution — add nothing and say so in the summary. A preference merely implied by one remark is not a rule — offer it in the summary as a suggestion instead.
+- **House rules, whenever they surface.** If the owner states a standing preference at any point ("always keep client emails short", "no exclamation marks in my emails"), add it as a bullet under `## Rules` in `00-brain/house-rules.md` right away (add the heading if it is missing). If the rule is already there in substance — in house-rules or as a rule of the constitution — add nothing and say so in the summary. A preference merely implied by one remark is not a rule — offer it in the summary as a suggestion instead.
 
 ## The six questions
 
 ### 1 of 6 — You
 "Who are you — your name and position — what are you responsible for, and what do you personally produce or deliver? And what are you judged on?"
-Extraction guide: name · title · scope of responsibility · the craft work they do themselves · what they are judged on (for an owner that is usually the business's own numbers — leave those to question 2). The answer shapes the wording of later questions: a manager gets "who do you report to", an owner "who do you answer to, if anyone", a solo operator skips the team half of question 3.
+Extraction guide: name · title · scope of responsibility · any field of their own they still work in themselves · what they are judged on (for an owner that is usually the business's own numbers — leave those to question 2). The answer shapes the wording of later questions: a manager gets "who do you report to", an owner "who do you answer to, if anyone", a solo operator skips the team half of question 3.
 Writes: `00-brain/team.md`, created now with the **Me** section only.
 Point at: a LinkedIn or about page.
 
@@ -49,7 +49,7 @@ Point at: a team page, an org chart, a page in their HR or wiki tool.
 ### 4 of 6 — Goals and priorities
 "What are the goals for the business and for your part of it, and what are you pushing on right now?"
 Extraction guide: strategic goals · constraints the owner has set on the business (a ceiling on engagements, a hiring freeze — goals-level even when dated) · current areas of emphasis · for the owner personally, what they want more or less of in their role. Ask once for a date or a measure where one exists; drop it where it doesn't.
-Writes: `00-brain/priorities.md` — goals and emphasis only. **Specific deliverables, deadlines, and actions do not go here**; they belong in a project's or operation's overview. If an answer reveals an active project or ongoing responsibility, note it in the closing summary — do not create it during onboarding.
+Writes: `00-brain/priorities.md` — goals and emphasis only. **Specific deliverables, deadlines, and actions do not go here**; they belong in the project's or operation's own documents. If an answer reveals an active project or ongoing responsibility, note it in the closing summary — do not create it during onboarding.
 Point at: a strategy note, a goals or OKR page, a planning document.
 
 ### 5 of 6 — Voice and language
@@ -84,6 +84,6 @@ Facts come from the owner's answers or from sources they pointed at. Keep the ow
 ## Ground rules
 
 - Never ask for a password, token, or key. Read an app only when the owner points you at it and it is already connected in the desktop app.
-- Setup fills the profile files of `00-brain/` and nothing else. No operations, projects, or desks get created here, and nothing is sent anywhere.
+- Setup fills the profile files of `00-brain/` and the house rules, and creates the empty wiki if it is missing; a refresh keeps a dated backup in the archive first. No operations, projects, or desks get created here, and nothing is sent anywhere.
 - The wiki in `00-brain/wiki/` (its README, `index.md`, `log.md`, and `raw/`) ships with the workspace and stays empty at setup: it grows later, source by source, on the owner's say. If it is missing, create it as its README describes before closing, and add the first log entry `## [<date>] setup | wiki created with the brain`. Nothing the owner says at setup is written into the wiki; profile facts live in the profile files.
 - On a refresh, existing facts stay unless the owner corrects them; the backup taken before the first change stays in `99-archive/`.

@@ -1,6 +1,6 @@
 ---
 name: brain-ingest
-description: Add a source to the wiki in the brain - a document, an email, notes, a webpage, or something the owner tells you - so what it teaches is kept as linked, indexed pages. Use when the owner says "ingest this", "add this to the wiki", "add this to my brain", "capture this", or has dropped a file into the wiki's raw folder. Not for a standing preference ("keep my client emails short", "always show me a draft first"): that is a house rule and goes into 00-brain/house-rules.md, not the wiki.
+description: Add a source to the wiki in the brain - a document, an email, notes, a webpage, or something the owner tells you - so what it teaches is kept as linked, indexed pages. Use when the owner says "ingest this", "add this to the wiki", "add this to my brain", "capture this", or has dropped a file into the wiki's raw folder. Not for a standing preference ("keep my client emails short", "no exclamation marks in my emails"): that is a house rule and goes into 00-brain/house-rules.md, not the wiki.
 ---
 
 # Brain ingest

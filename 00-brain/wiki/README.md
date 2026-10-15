@@ -1,6 +1,6 @@
 # The wiki in your brain
 
-The profile files next to this folder say who you are and what the business is; they are written at setup and change rarely. This folder is the part of the brain that grows: the sources you feed it, the pages that hold what those sources taught, and the answers worth keeping. The pattern is Andrej Karpathy's "LLM wiki": you supply sources and questions, your assistant does the filing, cross-linking and bookkeeping, and the knowledge compounds instead of being rediscovered every time.
+The profile files next to this folder say who you are, your role and the business; they are written at setup and change rarely. This folder is the part of the brain that grows: the sources you feed it, the pages that hold what those sources taught, and the answers worth keeping. The pattern is Andrej Karpathy's "LLM wiki": you supply sources and questions, your assistant does the filing, cross-linking and bookkeeping, and the knowledge compounds instead of being rediscovered every time.
 
 ## Structure
 
@@ -8,7 +8,7 @@ The profile files next to this folder say who you are and what the business is; 
 wiki/
 ├── README.md   this file: the structure and the rules
 ├── index.md    one line per page - read first whenever something is looked up
-├── log.md      what happened and when: one entry per ingest, per answer filed back, per lint
+├── log.md      what happened and when: one entry per ingest, per answer filed back, per lint, and one when the wiki is created
 ├── raw/        sources exactly as they came in - never edited after they land
 ├── sources/    one page per ingested source: what it is, its key points, the pages it informed
 ├── clients/    one page per client, prospect, or other organization
@@ -53,13 +53,13 @@ Links are ordinary markdown links to the page's path, `[Name](../clients/name.md
 
 - **Ingest** - add a source: its key points are discussed first; on the owner's go the source lands in `raw/`, pages are written or updated and linked, the index gets a line for every page touched, the log gets an entry. A source the owner keeps out is written nowhere, by design - not even a note that it was declined - so it may be proposed again another day, and the owner declines it again. Ingesting is not handling: a source that came from the tray is still a tray item afterwards.
 - **Query** - ask: the index is read first, the pages it points to are opened, the answer cites them; an answer worth keeping is filed back as a page in `analysis/`, indexed and logged.
-- **Lint** - health check: contradictions, superseded claims, orphans, missing pages and links, index drift, sources never ingested, stale pages. Reported; fixed only as the owner picks.
+- **Lint** - health check: contradictions, superseded claims, orphans, missing pages and links, index drift, sources never ingested, lines without their date or source, stale pages, gaps. Reported; fixed only as the owner picks.
 
 The index is updated inside every ingest and every file-back, so it is current when the operation ends. Anything written outside those operations - a line you add to a page yourself - is caught by the next lint.
 
 ## Rules that always hold
 
-- `raw/` is immutable. Nothing in it is edited, rewritten, or deleted once it has landed.
+- `raw/` is immutable. Nothing in it is edited, rewritten, or deleted once it has landed; the one exception is a missing title or date added at the top.
 - Nothing invented: every line traces to a source or to what the owner said.
 - No fact is overwritten silently. When a source contradicts a page, both are shown and the owner picks.
 - Nothing leaves the workspace.

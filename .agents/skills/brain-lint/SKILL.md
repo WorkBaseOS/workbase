@@ -5,7 +5,7 @@ description: Health check of the wiki in the brain - contradictions, claims newe
 
 # Brain lint
 
-Read `00-brain/wiki/README.md`, then `index.md`, every page, the contents of `raw/`, and `log.md`. Read the profile files in `00-brain/` alongside. Nothing else: the work folders and the tray are outside this check, and a document is read only when the owner points at it. Change nothing until the owner picks.
+Read `00-brain/wiki/README.md`, then `index.md`, every page, the contents of `raw/`, and `log.md`. Read the profile files in `00-brain/` alongside. Nothing else: the work folders are outside this check, the tray is read only for the previous lint report, and a document is read only when the owner points at it. Change nothing until the owner picks.
 
 ## The checks
 

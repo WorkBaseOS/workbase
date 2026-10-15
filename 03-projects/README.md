@@ -1,6 +1,6 @@
 # 03-projects — work with an end
 
-Time-bound work lives here: a launch, a hire, a migration, a campaign. One folder per project; when it's done, it moves to the archive.
+Defined pieces of work live here: a launch, a hire, a migration, a campaign. One folder per project; when it's done, it moves to the archive.
 
 **What belongs here:** a defined piece of work with its own goal and its own finish — it starts, it ends, and then it is over.
 **What never belongs here:** ongoing responsibilities — those are operations, even when they carry deadlines: the monthly update is not a project, it is a dated item in the operation it belongs to.
@@ -10,4 +10,4 @@ Time-bound work lives here: a launch, a hire, a migration, a campaign. One folde
 
 **How a promise is written:** with its date or its trigger — "confirm the new date to the client — by Monday 28 September". When it is done, the same line says so: "— done 28 September". Nothing else marks status; "what's open" is every promise line without "done", read from the work.
 
-Not sure what something is? A defined piece of work with its own goal and an end → project. A responsibility you will still have next quarter → operation. Your own craft → desk.
+Not sure what something is? A defined piece of work with its own goal and an end → project. A responsibility you will still have next quarter → operation. Your own field → desk.

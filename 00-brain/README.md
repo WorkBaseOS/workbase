@@ -1,12 +1,12 @@
 # 00-brain — what your Workbase knows
 
-Stable facts live here: who you are, what your business is and offers, who your customers and team are, what you're aiming for, what recurs in your work, how you write. Your assistant reads this folder so you never have to explain your business twice.
+Stable facts live here: who you are and what you are responsible for, what the business is and offers, who your customers and team are, what you're aiming for, how you write. Your assistant reads this folder so you never have to explain yourself twice.
 
-**What belongs here:** facts that stay true for months — profiles, offerings, customers, team, goals, terminology.
-**What never belongs here:** tasks, project status, drafts, or anything in motion — those live in operations and projects.
-**The one rule:** when a fact about the business changes, it changes here.
+**What belongs here:** facts that stay true for months — the profile files: your role, the business and its offerings, customers, team, goals, your voice.
+**What never belongs here:** tasks, project status, drafts, or anything in motion — those live in operations and projects. The one exception is `this-quarter.md`, your direction for the quarter.
+**The one rule:** when a fact about you or the business changes, it changes here.
 
-Setup ("set up my brain") fills this folder with you: `business-profile.md`, `team.md`, `clients.md`, `priorities.md`, `voice.md`, and `where-things-live.md`. Each is yours to edit afterwards.
+Setup ("set up my brain") fills this folder with you — the profile files: `business-profile.md`, `team.md`, `clients.md`, `priorities.md`, `voice.md`, and `where-things-live.md`. Each is yours to edit afterwards.
 
 `clients.md` names your clients and their contact people as far as your assistant needs them. Contact details, pipeline, and history stay in your customer tool — named in `where-things-live.md` — and are read from there once it is connected.
 

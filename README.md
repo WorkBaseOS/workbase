@@ -2,7 +2,7 @@
 
 Your AI business workspace in Claude. Set it up once. Put it to work every day.
 
-WorkbaseOS is a folder of plain files that turns Claude Code into a working assistant for one business: it holds what the assistant should always know about you, where your work lives, and the skills it runs for you, from meeting minutes to the quarterly plan. It is taught in the Udemy course that goes with it, and this repository is its home.
+WorkbaseOS is a folder of plain files that turns Claude Code into a working assistant for one owner, operator or manager: it holds what the assistant should always know about you, where your work lives, and the skills it runs for you, from meeting minutes to the quarterly plan. It is taught in the Udemy course that goes with it, and this repository is its home.
 
 ## Get it
 

@@ -4,4 +4,4 @@ Done and obsolete things move here: projects that shipped, operations you wound 
 
 **The one rule:** archive, never delete. Your assistant can always look something up here, and nothing old haunts your active workspace.
 
-Audit reports land in the tray for you to read; once handled they come here, dated, in `audits/`.
+Audit and lint reports land in the tray for you to read; once handled they come here, dated, in `audits/`. Past quarter directions live in `quarters/`.
