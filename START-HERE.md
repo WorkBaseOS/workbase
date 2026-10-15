@@ -14,7 +14,7 @@ Your Workbase is your *personal* workspace — and your second brain for your wo
 
 ## First steps
 
-1. Open this folder in the **Claude Code app** (open the app, choose this folder). It also works in the Codex app; both read the same rules — see the note at the end.
+1. Open this folder in **Claude Code**, the Code section of the Claude app (open the app, choose this folder). It also works in the Codex app; both read the same rules — see the note at the end.
 2. Say: **"Set up my brain."** Your assistant interviews you briefly and fills `00-brain/` with you: your role, your business, your people — you answer questions and drag in documents; it does the typing.
 3. From then on: toss anything into `01-in-tray/` as your day happens. When you're ready, go through it with your assistant, one item at a time — say what you want kept, it records it and files the item. Everything in operations and projects is ongoing; finished work moves to the archive — so the folders themselves are your list of open work. Once a week, say **"audit my Workbase"** for a tidy check. Pausing or switching work? Say **"save a handoff"** and answer one question; when you return, say **"where did I leave off?"** and you get a short recap. That's the habit; everything else grows from it.
 

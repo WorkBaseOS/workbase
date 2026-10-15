@@ -21,7 +21,7 @@ Add the last-updated date. A handoff is where the owner paused, not a register o
 
 ## Resuming work
 
-On "where did I leave off?" or "resume from my handoff", read the file and give a brief recap: **"You finished X. Y is still open. Your next step is Z."** Enough context to continue without rereading the previous conversation. Only start doing the work if the owner asks.
+On "where did I leave off?" or "resume from my handoff", read the file and give a brief recap: **"You finished X. Y is still open. Your next step is Z."** Enough context to continue without rereading the previous conversation. If nothing has been saved yet, say so and leave it there. Only start doing the work if the owner asks.
 
 ## Keep it simple
 
