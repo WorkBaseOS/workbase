@@ -10,3 +10,5 @@ The places outside this Workbase where your work is kept — so your assistant k
 | Email | | |
 | Customers / pipeline | | |
 | Numbers: finance, sales, hours | | |
+| Team chat | | |
+| Shared knowledge: wiki, intranet, shared repositories | | |
