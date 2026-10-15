@@ -21,7 +21,7 @@ Read `00-brain/wiki/README.md`, then `index.md`, every page, the contents of `ra
 
 ## The report
 
-One short report in the chat: the checks that came back clean in a single line, then the findings that matter, worst first, five at most in the chat, each with a one-line fix; the rest go in the saved report. The full report is saved as `99-archive/audits/<date>-brain-lint.md` (create the folder if needed). A young wiki with little in it gets a short report that says so.
+One short report in the chat: the checks that came back clean in a single line, then the findings that matter, worst first, five at most in the chat, each with a one-line fix; the rest go in the saved report. The full report is saved in the tray as `01-in-tray/<date>-brain-lint.md`; once read it is handled like any tray item and moves to `99-archive/audits/`. The previous report is the newest `*-brain-lint.md` in the tray or in `99-archive/audits/`. A young wiki with little in it gets a short report that says so.
 
 Then ask which fixes to apply, and apply only those. When done, add a closing line to the saved report saying which findings were fixed and which stand. Mechanical fixes are yours to make on the owner's word: index lines, links, a page for something the existing pages already describe. A contradiction is the owner's to settle; a stale page is theirs to confirm; a gap is theirs to fill. Append `## [<date>] lint | <n> findings, <m> fixed` to `log.md`, counting the findings reported (gaps are suggestions and are not counted).
 
