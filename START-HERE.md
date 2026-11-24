@@ -20,7 +20,7 @@ Your Workbase is your *personal* workspace — and your second brain for your wo
 
 ## What you can ask for
 
-Besides the habit above, six jobs are ready by name: **"plan the meeting"** (an agenda from your notes and the last minutes), **"write the minutes"** (from a recording's transcript), **"write my update"** (for your manager, a client or the team, from the work as it stands), **"make slides"** (a slide script from documents or the brain), **"plan my quarter"** (a short interview that ends in one page of direction), and **"run the panel"** (five fresh reviewers, each with one question, on a proposal, a price, a plan or a hire; one document back). Each reads your Workbase and drafts; nothing is sent.
+Besides the habit above, eight jobs are ready by name: **"plan the meeting"** (an agenda from your notes and the last minutes), **"write the minutes"** (from a recording's transcript), **"write my update"** (for your manager, a client or the team, from the work as it stands), **"make slides"** (a slide script from documents or the brain), **"plan my quarter"** (a short interview that ends in one page of direction), **"run the panel"** (five fresh reviewers, each with one question, on a proposal, a price, a plan or a hire; a one-page briefing memo back), **"brief me on <company>"** (the scout reads the web and comes back with a 250-word brief before a first call), and **"brainstorm"** (when you have a task and don't know where to start: a few questions, two or three ways in, then it starts). Each reads your Workbase and drafts; nothing is sent.
 
 ## The rooms of your Workbase
 
