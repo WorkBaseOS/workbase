@@ -36,6 +36,8 @@ Besides the habit above, eight jobs are ready by name: **"plan the meeting"** (a
 
 **`99-archive/` — finished things.** Nothing is deleted here, ever. Done work moves in, stays findable, and stops cluttering your active workspace.
 
+**`.claude/` and `.agents/` — your skills and agents.** Can't see them in Finder? That's normal: your Mac hides folders whose names start with a dot. They are there. Press **Cmd + Shift + .** (period) to show them; press it again to hide them. In the Claude app you always see them.
+
 ## What's ours and what's yours
 
 Everything here is yours — every file can be edited, by you or by your assistant on your behalf. **Template updates never overwrite your customizations or files:** changed by you → never replaced; unchanged from what we shipped → updated freely; created by you → not ours to touch, ever.
